@@ -4,12 +4,23 @@ async function loadJSON(url) {
   return r.json();
 }
 
-function withBase(path) {
-  // Ex: /frequencies/ quand tu es sur GitHub Pages
-  const base = document.querySelector("base")?.getAttribute("href") || "/";
-  return new URL(path.replace(/^\//, ""), new URL(base, window.location.origin)).toString();
-}
+// ✅ robuste: marche si le site est publié à la racine OU dans /src
+async function loadData(pathFromDataRoot) {
+  const candidates = [
+    `./data/${pathFromDataRoot}`,
+    `../data/${pathFromDataRoot}`,
+  ];
 
+  let lastErr = null;
+  for (const url of candidates) {
+    try {
+      return await loadJSON(url);
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+  throw lastErr;
+}
 
 function escapeHtml(s) {
   return (s ?? "")
@@ -71,11 +82,10 @@ function applyScrutinFilters() {
 }
 
 async function openDetail(scrutinId, dateStr) {
-
   const year = getYear(dateStr);
 
-  // ✅ IMPORTANT: on remonte d'un niveau (src -> racine) puis data/...
-  const pack = await loadJSON(withBase(`data/scrutins/${year}.json`));
+  // ✅ charge depuis data/ quel que soit le niveau du HTML
+  const pack = await loadData(`scrutins/${year}.json`);
 
   const s = pack.scrutins.find(x => x.id === scrutinId);
   if (!s) {
@@ -85,7 +95,10 @@ async function openDetail(scrutinId, dateStr) {
 
   CURRENT_DETAIL = s;
 
-  document.querySelector("#detail").classList.remove("hidden");
+  // si tu as gardé l'overlay: remplace par "#overlay".classList.add("open")
+  const detailEl = document.querySelector("#detail");
+  if (detailEl) detailEl.classList.remove("hidden");
+
   document.querySelector("#detail-title").textContent = s.title;
 
   const counts = s.counts ?? {};
@@ -155,14 +168,16 @@ function renderVotes() {
     tbody.appendChild(tr);
   }
 
-  document.querySelector("#votesMeta").textContent =
-    `${votes.length} votes affichés (sur ${(CURRENT_DETAIL.votes ?? []).length})`;
+  const meta = document.querySelector("#votesMeta");
+  if (meta) {
+    meta.textContent = `${votes.length} votes affichés (sur ${(CURRENT_DETAIL.votes ?? []).length})`;
+  }
 }
 
 async function init() {
-  // ✅ IMPORTANT: chemins corrigés
-  INDEX = await loadJSON(withBase("data/index.json"));
-  THEMES = await loadJSON(withBase("data/themes.json"));
+  // ✅ charge data/index.json et data/themes.json avec fallback
+  INDEX = await loadData("index.json");
+  THEMES = await loadData("themes.json");
 
   const themeSlugs = uniq((THEMES.themes ?? []).map(t => t.slug));
   const themeSel = document.querySelector("#theme");
@@ -180,7 +195,9 @@ async function init() {
   });
 
   document.querySelector("#close").addEventListener("click", () => {
-    document.querySelector("#detail").classList.add("hidden");
+    // si overlay: "#overlay".classList.remove("open")
+    const detailEl = document.querySelector("#detail");
+    if (detailEl) detailEl.classList.add("hidden");
     CURRENT_DETAIL = null;
   });
 
