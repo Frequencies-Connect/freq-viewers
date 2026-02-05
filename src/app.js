@@ -4,6 +4,13 @@ async function loadJSON(url) {
   return r.json();
 }
 
+function withBase(path) {
+  // Ex: /frequencies/ quand tu es sur GitHub Pages
+  const base = document.querySelector("base")?.getAttribute("href") || "/";
+  return new URL(path.replace(/^\//, ""), new URL(base, window.location.origin)).toString();
+}
+
+
 function escapeHtml(s) {
   return (s ?? "")
     .replaceAll("&", "&amp;")
@@ -64,10 +71,11 @@ function applyScrutinFilters() {
 }
 
 async function openDetail(scrutinId, dateStr) {
+
   const year = getYear(dateStr);
 
   // ✅ IMPORTANT: on remonte d'un niveau (src -> racine) puis data/...
-  const pack = await loadJSON(`../data/scrutins/${year}.json`);
+  const pack = await loadJSON(withBase(`data/scrutins/${year}.json`));
 
   const s = pack.scrutins.find(x => x.id === scrutinId);
   if (!s) {
@@ -153,8 +161,8 @@ function renderVotes() {
 
 async function init() {
   // ✅ IMPORTANT: chemins corrigés
-  INDEX = await loadJSON("../data/index.json");
-  THEMES = await loadJSON("../data/themes.json");
+  INDEX = await loadJSON(withBase("data/index.json"));
+  THEMES = await loadJSON(withBase("data/themes.json"));
 
   const themeSlugs = uniq((THEMES.themes ?? []).map(t => t.slug));
   const themeSel = document.querySelector("#theme");
