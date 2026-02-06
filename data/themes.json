@@ -1,8 +1,15 @@
 {
   "themes": [
-    { "slug": "budget", "label": "Budget", "keywords": ["loi de finances", "plf", "crédits", "finances"] },
-    { "slug": "sante", "label": "Santé", "keywords": ["hôpital", "assurance maladie", "médicament", "vaccin"] },
-    { "slug": "environnement", "label": "Environnement", "keywords": ["climat", "biodiversité", "carbone", "énergie"] }
+    { "slug": "budget", "label": "Budget & Finances", "keywords": ["loi de finances", "plf", "crédits", "finances", "budget", "fiscal"] },
+    { "slug": "sante", "label": "Santé", "keywords": ["hôpital", "hôpitaux", "assurance maladie", "médicament", "vaccin", "santé", "parkings des hôpitaux"] },
+    { "slug": "environnement", "label": "Environnement & Énergie", "keywords": ["climat", "biodiversité", "carbone", "énergie", "écologie", "nucléaire", "essais nucléaires"] },
+    { "slug": "emploi", "label": "Emploi & Travail", "keywords": ["emploi", "chômeur", "chômage", "travail", "insertion", "zéro chômeur"] },
+    { "slug": "commerce", "label": "Commerce & Numérique", "keywords": ["commerçants", "commerce", "numérique", "outils numériques", "artisan"] },
+    { "slug": "justice", "label": "Justice & Droits", "keywords": ["justice", "judiciaire", "violences sexuelles", "conjugal", "inceste", "pénale", "tribunal"] },
+    { "slug": "enfance", "label": "Enfance & Famille", "keywords": ["enfants", "enfance", "mineurs", "famille", "parentale", "protection de l'enfance"] },
+    { "slug": "institutions", "label": "Institutions & Politique", "keywords": ["motion de censure", "article 49", "commission d'enquête", "résolution", "constitution"] },
+    { "slug": "immobilier", "label": "Immobilier & Patrimoine", "keywords": ["immobilier", "patrimoine immobilier", "logement", "foncier"] },
+    { "slug": "outre-mer", "label": "Outre-mer", "keywords": ["réunion", "outre-mer", "mayotte", "guadeloupe", "martinique", "guyane", "nouvelle-calédonie"] }
   ],
   "overrides": {}
 }

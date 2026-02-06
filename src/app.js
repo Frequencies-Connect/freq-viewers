@@ -194,12 +194,27 @@ async function init() {
   INDEX = await loadData("index.json");
   THEMES = await loadData("themes.json");
 
-  const themeSlugs = uniq((THEMES.themes ?? []).map(t => t.slug));
+  // map slug → label depuis themes.json
+  const labelMap = {};
+  for (const t of (THEMES.themes ?? [])) {
+    labelMap[t.slug] = t.label ?? t.slug;
+  }
+  labelMap["autre"] = "Autre";
+
+  // collecter tous les thèmes réellement présents dans les données
+  const dataThemes = new Set();
+  for (const s of (INDEX.scrutins ?? [])) {
+    for (const t of (s.themes ?? [])) dataThemes.add(t);
+  }
+
+  // fusionner : thèmes déclarés + thèmes trouvés dans les données
+  const allSlugs = uniq([...Object.keys(labelMap), ...dataThemes]);
+
   const themeSel = document.querySelector("#theme");
-  for (const slug of themeSlugs) {
+  for (const slug of allSlugs) {
     const opt = document.createElement("option");
     opt.value = slug;
-    opt.textContent = slug;
+    opt.textContent = labelMap[slug] ?? slug;
     themeSel.appendChild(opt);
   }
 

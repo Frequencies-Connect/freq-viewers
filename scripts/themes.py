@@ -38,6 +38,6 @@ def assign_themes(scrutins: list[dict], cfg: dict) -> list[dict]:
                     found.append(t["slug"])
                     break
 
-        s["themes"] = sorted(set(found))
+        s["themes"] = sorted(set(found)) if found else ["autre"]
 
     return scrutins
