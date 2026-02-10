@@ -99,9 +99,8 @@ async function openDetail(scrutinId, dateStr) {
 
   CURRENT_DETAIL = s;
 
-  // si tu as gardé l'overlay: remplace par "#overlay".classList.add("open")
-  const detailEl = document.querySelector("#detail");
-  if (detailEl) detailEl.classList.remove("hidden");
+  document.querySelector("#overlay").classList.remove("hidden");
+  document.body.classList.add("overlay-open");
 
   document.querySelector("#detail-title").textContent = s.title;
 
@@ -225,10 +224,18 @@ async function init() {
   });
 
   document.querySelector("#close").addEventListener("click", () => {
-    // si overlay: "#overlay".classList.remove("open")
-    const detailEl = document.querySelector("#detail");
-    if (detailEl) detailEl.classList.add("hidden");
+    document.querySelector("#overlay").classList.add("hidden");
+    document.body.classList.remove("overlay-open");
     CURRENT_DETAIL = null;
+  });
+
+  // fermer aussi en cliquant sur le fond sombre
+  document.querySelector("#overlay").addEventListener("click", (e) => {
+    if (e.target === e.currentTarget) {
+      document.querySelector("#overlay").classList.add("hidden");
+      document.body.classList.remove("overlay-open");
+      CURRENT_DETAIL = null;
+    }
   });
 
   document.querySelector("#vq").addEventListener("input", () => CURRENT_DETAIL && renderVotes());
