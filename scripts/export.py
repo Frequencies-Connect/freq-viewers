@@ -11,7 +11,8 @@ def _write_json(path: Path, obj: dict):
     )
 
 
-def export_all(data_dir: Path, scrutins: list[dict], generated_at: str):
+def export_all(data_dir: Path, scrutins: list[dict], generated_at: str,
+               deputies: list[dict] = None, groups: list[dict] = None):
     """
     Ecrit:
     - data/index.json (liste filtrable)
@@ -35,7 +36,13 @@ def export_all(data_dir: Path, scrutins: list[dict], generated_at: str):
             }
         )
     index_items.sort(key=lambda x: (x["date"], x["id"]), reverse=True)
-    _write_json(data_dir / "index.json", {"generated_at": generated_at, "scrutins": index_items})
+    # liste des mois disponibles pour le chargement on-demand
+    months = sorted(set(s["date"][:7] for s in scrutins))
+    _write_json(data_dir / "index.json", {
+        "generated_at": generated_at,
+        "months": months,
+        "scrutins": index_items,
+    })
 
     # people minimal (on enrichira plus tard)
     people_map = {}
@@ -54,12 +61,27 @@ def export_all(data_dir: Path, scrutins: list[dict], generated_at: str):
     people_list = sorted(people_map.values(), key=lambda p: ((p.get("name") or ""), p["person_id"]))
     _write_json(data_dir / "people.json", {"generated_at": generated_at, "people": people_list})
 
-    # détails par année
-    by_year = defaultdict(list)
+    # détails par mois (YYYY-MM) pour éviter les fichiers > 100 Mo
+    by_month = defaultdict(list)
     for s in scrutins:
-        year = int(s["date"][:4])
-        by_year[year].append(s)
+        month_key = s["date"][:7]  # "2025-03"
+        by_month[month_key].append(s)
 
-    for year, items in by_year.items():
+    for month_key, items in by_month.items():
         items.sort(key=lambda x: (x["date"], x["id"]), reverse=True)
-        _write_json(data_dir / "scrutins" / f"{year}.json", {"year": year, "scrutins": items})
+        _write_json(data_dir / "scrutins" / f"{month_key}.json",
+                    {"month": month_key, "scrutins": items})
+
+    # fiches députés
+    if deputies is not None:
+        _write_json(data_dir / "deputies.json", {
+            "generated_at": generated_at,
+            "deputies": deputies,
+        })
+
+    # fiches groupes
+    if groups is not None:
+        _write_json(data_dir / "groups.json", {
+            "generated_at": generated_at,
+            "groups": groups,
+        })

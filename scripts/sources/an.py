@@ -347,7 +347,7 @@ def fetch_an_acteurs() -> tuple[dict, dict]:
 # Public API
 # ---------------------------------------------------------------------------
 
-def fetch_an_scrutins(limit: int = 200) -> list[dict]:
+def fetch_an_scrutins(limit: int = 0) -> list[dict]:
     print("📥 Chargement acteurs / organes…")
     acteurs, organes = fetch_an_acteurs()
 
@@ -383,4 +383,4 @@ def fetch_an_scrutins(limit: int = 200) -> list[dict]:
         reverse=True,
     )
 
-    return scrutins[:limit]
+    return scrutins[:limit] if limit else scrutins

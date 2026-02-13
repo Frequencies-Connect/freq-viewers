@@ -1,0 +1,2773 @@
+{
+  "generated_at": "2026-02-13T09:00:42.640801+00:00",
+  "groups": [
+    {
+      "acronym": "RN",
+      "cohesion": 98.1,
+      "group_id": "PO845401",
+      "member_count": 125,
+      "members": [
+        {
+          "name": "Alexandra Masson",
+          "person_id": "PA793314"
+        },
+        {
+          "name": "Alexandre Dufosset",
+          "person_id": "PA840135"
+        },
+        {
+          "name": "Alexandre Loubet",
+          "person_id": "PA794590"
+        },
+        {
+          "name": "Alexandre Sabatou",
+          "person_id": "PA794570"
+        },
+        {
+          "name": "Alexis Jolly",
+          "person_id": "PA794030"
+        },
+        {
+          "name": "Anaïs Sabatini",
+          "person_id": "PA794894"
+        },
+        {
+          "name": "Anchya Bamana",
+          "person_id": "PA842279"
+        },
+        {
+          "name": "Angélique Ranc",
+          "person_id": "PA793230"
+        },
+        {
+          "name": "Anne Sicard",
+          "person_id": "PA842255"
+        },
+        {
+          "name": "Anthony Boulogne",
+          "person_id": "PA841487"
+        },
+        {
+          "name": "Antoine Golliot",
+          "person_id": "PA841605"
+        },
+        {
+          "name": "Antoine Villedieu",
+          "person_id": "PA794946"
+        },
+        {
+          "name": "Auguste Evrard",
+          "person_id": "PA841621"
+        },
+        {
+          "name": "Aurélien Dutremble",
+          "person_id": "PA841761"
+        },
+        {
+          "name": "Aurélien Lopez-Liguori",
+          "person_id": "PA793904"
+        },
+        {
+          "name": "Bruno Bilde",
+          "person_id": "PA720822"
+        },
+        {
+          "name": "Bruno Clavet",
+          "person_id": "PA840159"
+        },
+        {
+          "name": "Bryan Masson",
+          "person_id": "PA793330"
+        },
+        {
+          "name": "Béatrice Roullaud",
+          "person_id": "PA795410"
+        },
+        {
+          "name": "Bénédicte Auzanot",
+          "person_id": "PA796118"
+        },
+        {
+          "name": "Caroline Colombier",
+          "person_id": "PA793548"
+        },
+        {
+          "name": "Caroline Parmentier",
+          "person_id": "PA794670"
+        },
+        {
+          "name": "Catherine Rimbert",
+          "person_id": "PA841981"
+        },
+        {
+          "name": "Christian Girard",
+          "person_id": "PA793102"
+        },
+        {
+          "name": "Christine Engrand",
+          "person_id": "PA794718"
+        },
+        {
+          "name": "Christine Loir",
+          "person_id": "PA793672"
+        },
+        {
+          "name": "Christophe Barthès",
+          "person_id": "PA793238"
+        },
+        {
+          "name": "Christophe Bentz",
+          "person_id": "PA794434"
+        },
+        {
+          "name": "Claire Marais-Beuil",
+          "person_id": "PA841563"
+        },
+        {
+          "name": "David Magnier",
+          "person_id": "PA841587"
+        },
+        {
+          "name": "Eddy Casterman",
+          "person_id": "PA840075"
+        },
+        {
+          "name": "Edwige Diaz",
+          "person_id": "PA793928"
+        },
+        {
+          "name": "Emeric Salmon",
+          "person_id": "PA794954"
+        },
+        {
+          "name": "Emmanuel Blairy",
+          "person_id": "PA720668"
+        },
+        {
+          "name": "Emmanuel Fouquart",
+          "person_id": "PA840801"
+        },
+        {
+          "name": "Emmanuel Taché",
+          "person_id": "PA793382"
+        },
+        {
+          "name": "Florence Goulet",
+          "person_id": "PA794418"
+        },
+        {
+          "name": "Florence Joubert",
+          "person_id": "PA840869"
+        },
+        {
+          "name": "Franck Allisio",
+          "person_id": "PA793432"
+        },
+        {
+          "name": "Frank Giletti",
+          "person_id": "PA796034"
+        },
+        {
+          "name": "Frédéric Boccaletti",
+          "person_id": "PA796042"
+        },
+        {
+          "name": "Frédéric Falcon",
+          "person_id": "PA793246"
+        },
+        {
+          "name": "Frédéric Weber",
+          "person_id": "PA841479"
+        },
+        {
+          "name": "Frédéric-Pierre Vos",
+          "person_id": "PA841575"
+        },
+        {
+          "name": "Gaëtan Dussausaye",
+          "person_id": "PA842073"
+        },
+        {
+          "name": "Gisèle Lelouis",
+          "person_id": "PA793290"
+        },
+        {
+          "name": "Guillaume Bigot",
+          "person_id": "PA842001"
+        },
+        {
+          "name": "Guillaume Florquin",
+          "person_id": "PA840143"
+        },
+        {
+          "name": "Géraldine Grangier",
+          "person_id": "PA793592"
+        },
+        {
+          "name": "Hervé de Lépinau",
+          "person_id": "PA642988"
+        },
+        {
+          "name": "Hélène Laporte",
+          "person_id": "PA794354"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841777"
+        },
+        {
+          "name": "Jean-Philippe Tanguy",
+          "person_id": "PA795778"
+        },
+        {
+          "name": "Jocelyn Dessigny",
+          "person_id": "PA793166"
+        },
+        {
+          "name": "Jonathan Gery",
+          "person_id": "PA841737"
+        },
+        {
+          "name": "Jordan Guitton",
+          "person_id": "PA793218"
+        },
+        {
+          "name": "Jorys Bovet",
+          "person_id": "PA793182"
+        },
+        {
+          "name": "Joseph Rivière",
+          "person_id": "PA842227"
+        },
+        {
+          "name": "José Beaurain",
+          "person_id": "PA793158"
+        },
+        {
+          "name": "José Gonzalez",
+          "person_id": "PA793362"
+        },
+        {
+          "name": "Joëlle Mélin",
+          "person_id": "PA793354"
+        },
+        {
+          "name": "Julie Lechanteux",
+          "person_id": "PA796026"
+        },
+        {
+          "name": "Julien Gabarron",
+          "person_id": "PA841139"
+        },
+        {
+          "name": "Julien Guibert",
+          "person_id": "PA841451"
+        },
+        {
+          "name": "Julien Limongi",
+          "person_id": "PA841873"
+        },
+        {
+          "name": "Julien Odoul",
+          "person_id": "PA795552"
+        },
+        {
+          "name": "Julien Rancoule",
+          "person_id": "PA793254"
+        },
+        {
+          "name": "Jérôme Buisson",
+          "person_id": "PA793134"
+        },
+        {
+          "name": "Katiana Levavasseur",
+          "person_id": "PA793608"
+        },
+        {
+          "name": "Kévin Mauvieux",
+          "person_id": "PA793616"
+        },
+        {
+          "name": "Kévin Pfeffer",
+          "person_id": "PA794582"
+        },
+        {
+          "name": "Laure Lavalette",
+          "person_id": "PA795912"
+        },
+        {
+          "name": "Laurence Robert-Dehault",
+          "person_id": "PA794442"
+        },
+        {
+          "name": "Laurent Jacobelli",
+          "person_id": "PA794598"
+        },
+        {
+          "name": "Lionel Tivoli",
+          "person_id": "PA793298"
+        },
+        {
+          "name": "Lisette Pollet",
+          "person_id": "PA793656"
+        },
+        {
+          "name": "Manon Bouquin",
+          "person_id": "PA841131"
+        },
+        {
+          "name": "Marc de Fleurian",
+          "person_id": "PA841613"
+        },
+        {
+          "name": "Marie-France Lorho",
+          "person_id": "PA721932"
+        },
+        {
+          "name": "Marine Hamelet",
+          "person_id": "PA795900"
+        },
+        {
+          "name": "Marine Le Pen",
+          "person_id": "PA720614"
+        },
+        {
+          "name": "Matthias Renault",
+          "person_id": "PA841955"
+        },
+        {
+          "name": "Matthieu Marchio",
+          "person_id": "PA794530"
+        },
+        {
+          "name": "Maxime Amblard",
+          "person_id": "PA841495"
+        },
+        {
+          "name": "Michaël Taverne",
+          "person_id": "PA794502"
+        },
+        {
+          "name": "Michel Guiniot",
+          "person_id": "PA794734"
+        },
+        {
+          "name": "Michèle Martinez",
+          "person_id": "PA794770"
+        },
+        {
+          "name": "Monique Griseti",
+          "person_id": "PA840757"
+        },
+        {
+          "name": "Nadine Lechon",
+          "person_id": "PA840857"
+        },
+        {
+          "name": "Nathalie Da Conceicao Carvalho",
+          "person_id": "PA795644"
+        },
+        {
+          "name": "Nicolas Dragon",
+          "person_id": "PA793146"
+        },
+        {
+          "name": "Nicolas Meizonnet",
+          "person_id": "PA719436"
+        },
+        {
+          "name": "Pascal Jenft",
+          "person_id": "PA841439"
+        },
+        {
+          "name": "Pascal Markowsky",
+          "person_id": "PA840837"
+        },
+        {
+          "name": "Pascale Bordes",
+          "person_id": "PA793844"
+        },
+        {
+          "name": "Patrice Martin",
+          "person_id": "PA841825"
+        },
+        {
+          "name": "Philippe Ballard",
+          "person_id": "PA794562"
+        },
+        {
+          "name": "Philippe Lottiaux",
+          "person_id": "PA795974"
+        },
+        {
+          "name": "Philippe Schreck",
+          "person_id": "PA796050"
+        },
+        {
+          "name": "Pierre Meurin",
+          "person_id": "PA793852"
+        },
+        {
+          "name": "René Lioret",
+          "person_id": "PA840967"
+        },
+        {
+          "name": "Robert Le Bourgeois",
+          "person_id": "PA841837"
+        },
+        {
+          "name": "Roger Chudeau",
+          "person_id": "PA794198"
+        },
+        {
+          "name": "Romain Baubry",
+          "person_id": "PA793374"
+        },
+        {
+          "name": "Romain Tonussi",
+          "person_id": "PA840781"
+        },
+        {
+          "name": "Sandra Delannoy",
+          "person_id": "PA840119"
+        },
+        {
+          "name": "Sandrine Dogor-Such",
+          "person_id": "PA794762"
+        },
+        {
+          "name": "Serge Muller",
+          "person_id": "PA793696"
+        },
+        {
+          "name": "Sophie Blanc",
+          "person_id": "PA794886"
+        },
+        {
+          "name": "Sophie-Laurence Roy",
+          "person_id": "PA842097"
+        },
+        {
+          "name": "Stéphane Rambaud",
+          "person_id": "PA795966"
+        },
+        {
+          "name": "Stéphanie Galzy",
+          "person_id": "PA793892"
+        },
+        {
+          "name": "Sylvie Josserand",
+          "person_id": "PA841075"
+        },
+        {
+          "name": "Sébastien Chenu",
+          "person_id": "PA720468"
+        },
+        {
+          "name": "Sébastien Humbert",
+          "person_id": "PA842085"
+        },
+        {
+          "name": "Thibaut Monnier",
+          "person_id": "PA840915"
+        },
+        {
+          "name": "Thierry Frappé",
+          "person_id": "PA794678"
+        },
+        {
+          "name": "Thierry Perez",
+          "person_id": "PA841199"
+        },
+        {
+          "name": "Thierry Tesson",
+          "person_id": "PA841553"
+        },
+        {
+          "name": "Thomas Ménagé",
+          "person_id": "PA794322"
+        },
+        {
+          "name": "Théo Bernhardt",
+          "person_id": "PA841645"
+        },
+        {
+          "name": "Tiffany Joncour",
+          "person_id": "PA841749"
+        },
+        {
+          "name": "Timothée Houssin",
+          "person_id": "PA793632"
+        },
+        {
+          "name": "Yaël Ménaché",
+          "person_id": "PA795786"
+        },
+        {
+          "name": "Yoann Gillet",
+          "person_id": "PA793832"
+        }
+      ],
+      "name": "Rassemblement National",
+      "stats": {
+        "abstain": 20970,
+        "against": 109658,
+        "for": 129929,
+        "nonvoting": 547,
+        "pct_abstain": 8.0,
+        "pct_against": 42.0,
+        "pct_for": 49.8,
+        "pct_nonvoting": 0.2,
+        "total_group_votes": 261104
+      }
+    },
+    {
+      "acronym": "EPR",
+      "cohesion": 87.3,
+      "group_id": "PO845407",
+      "member_count": 112,
+      "members": [
+        {
+          "name": "Agnès Pannier-Runacher",
+          "person_id": "PA759832"
+        },
+        {
+          "name": "Amélia Lakrafi",
+          "person_id": "PA721004"
+        },
+        {
+          "name": "Annaïg Le Meur",
+          "person_id": "PA719388"
+        },
+        {
+          "name": "Anne Genetet",
+          "person_id": "PA721024"
+        },
+        {
+          "name": "Anne-Sophie Ronceret",
+          "person_id": "PA841927"
+        },
+        {
+          "name": "Annie Vidal",
+          "person_id": "PA722102"
+        },
+        {
+          "name": "Anthony Brosse",
+          "person_id": "PA794330"
+        },
+        {
+          "name": "Antoine Armand",
+          "person_id": "PA795144"
+        },
+        {
+          "name": "Astrid Panosyan-Bouvet",
+          "person_id": "PA795050"
+        },
+        {
+          "name": "Bastien Marchive",
+          "person_id": "PA795730"
+        },
+        {
+          "name": "Belkhir Belhaddad",
+          "person_id": "PA720362"
+        },
+        {
+          "name": "Benjamin Dirx",
+          "person_id": "PA722382"
+        },
+        {
+          "name": "Benoît Larrouquis",
+          "person_id": "PA795334"
+        },
+        {
+          "name": "Bertrand Sorre",
+          "person_id": "PA720190"
+        },
+        {
+          "name": "Brigitte Klinkert",
+          "person_id": "PA643184"
+        },
+        {
+          "name": "Brigitte Liso",
+          "person_id": "PA720446"
+        },
+        {
+          "name": "Camille Galliard-Minier",
+          "person_id": "PA719736"
+        },
+        {
+          "name": "Caroline Yadan",
+          "person_id": "PA795046"
+        },
+        {
+          "name": "Catherine Ibled",
+          "person_id": "PA795954"
+        },
+        {
+          "name": "Charles Rodwell",
+          "person_id": "PA795528"
+        },
+        {
+          "name": "Charles Sitzenstuhl",
+          "person_id": "PA794802"
+        },
+        {
+          "name": "Christine Le Nabour",
+          "person_id": "PA719756"
+        },
+        {
+          "name": "Christophe Marion",
+          "person_id": "PA794206"
+        },
+        {
+          "name": "Christophe Mongardien",
+          "person_id": "PA842147"
+        },
+        {
+          "name": "Christopher Weissberg",
+          "person_id": "PA795326"
+        },
+        {
+          "name": "Constance Le Grip",
+          "person_id": "PA345722"
+        },
+        {
+          "name": "Corinne Vignon",
+          "person_id": "PA719512"
+        },
+        {
+          "name": "Céline Calvez",
+          "person_id": "PA721750"
+        },
+        {
+          "name": "Daniel Labaronne",
+          "person_id": "PA719798"
+        },
+        {
+          "name": "Danielle Brulebois",
+          "person_id": "PA719890"
+        },
+        {
+          "name": "Denis Masséglia",
+          "person_id": "PA720146"
+        },
+        {
+          "name": "Didier Le Gac",
+          "person_id": "PA719404"
+        },
+        {
+          "name": "Florent Boudié",
+          "person_id": "PA606507"
+        },
+        {
+          "name": "Franck Riester",
+          "person_id": "PA335758"
+        },
+        {
+          "name": "François Cormier-Bouligeon",
+          "person_id": "PA719118"
+        },
+        {
+          "name": "Françoise Buffet",
+          "person_id": "PA794798"
+        },
+        {
+          "name": "Gabriel Attal",
+          "person_id": "PA722190"
+        },
+        {
+          "name": "Graziella Melchior",
+          "person_id": "PA719338"
+        },
+        {
+          "name": "Guillaume Gouffier Valente",
+          "person_id": "PA721296"
+        },
+        {
+          "name": "Guillaume Kasbarian",
+          "person_id": "PA719372"
+        },
+        {
+          "name": "Hervé Berville",
+          "person_id": "PA719218"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA607846"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA721134"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA721170"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA722046"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA793416"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA795330"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA795386"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA795888"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA795950"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA795958"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA795990"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA840713"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841601"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841693"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841709"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841801"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA842137"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA842323"
+        },
+        {
+          "name": "Jean Terlier",
+          "person_id": "PA721584"
+        },
+        {
+          "name": "Jean-François Rousset",
+          "person_id": "PA793270"
+        },
+        {
+          "name": "Jean-Luc Fugit",
+          "person_id": "PA722366"
+        },
+        {
+          "name": "Jean-Marie Fiévet",
+          "person_id": "PA722134"
+        },
+        {
+          "name": "Jean-Michel Jacques",
+          "person_id": "PA720354"
+        },
+        {
+          "name": "Jean-René Cazeneuve",
+          "person_id": "PA719472"
+        },
+        {
+          "name": "Joséphine Missoffe",
+          "person_id": "PA795962"
+        },
+        {
+          "name": "Julie Delpech",
+          "person_id": "PA794982"
+        },
+        {
+          "name": "Karl Olive",
+          "person_id": "PA795722"
+        },
+        {
+          "name": "Laure Miller",
+          "person_id": "PA817203"
+        },
+        {
+          "name": "Liliana Tanguy",
+          "person_id": "PA719550"
+        },
+        {
+          "name": "Lionel Causse",
+          "person_id": "PA719922"
+        },
+        {
+          "name": "Ludovic Mendes",
+          "person_id": "PA720370"
+        },
+        {
+          "name": "Marc Ferracci",
+          "person_id": "PA795884"
+        },
+        {
+          "name": "Marie Lebec",
+          "person_id": "PA721852"
+        },
+        {
+          "name": "Marie-Pierre Rixain",
+          "person_id": "PA722252"
+        },
+        {
+          "name": "Michel Lauzzana",
+          "person_id": "PA720022"
+        },
+        {
+          "name": "Mikaele Seo",
+          "person_id": "PA757225"
+        },
+        {
+          "name": "Moerani Frébault",
+          "person_id": "PA840235"
+        },
+        {
+          "name": "Natalia Pouzyreff",
+          "person_id": "PA721916"
+        },
+        {
+          "name": "Nathalie Coggia",
+          "person_id": "PA795402"
+        },
+        {
+          "name": "Nicolas Metzdorf",
+          "person_id": "PA795176"
+        },
+        {
+          "name": "Nicole Dubré-Chirat",
+          "person_id": "PA720154"
+        },
+        {
+          "name": "Nicole Le Peih",
+          "person_id": "PA720342"
+        },
+        {
+          "name": "Olga Givernet",
+          "person_id": "PA718674"
+        },
+        {
+          "name": "Olivia Grégoire",
+          "person_id": "PA721764"
+        },
+        {
+          "name": "Olivier Becht",
+          "person_id": "PA642935"
+        },
+        {
+          "name": "Paul Midy",
+          "person_id": "PA795664"
+        },
+        {
+          "name": "Philippe Fait",
+          "person_id": "PA794658"
+        },
+        {
+          "name": "Pierre Cazeneuve",
+          "person_id": "PA795864"
+        },
+        {
+          "name": "Pieyre-Alexandre Anglade",
+          "person_id": "PA721158"
+        },
+        {
+          "name": "Prisca Thevenot",
+          "person_id": "PA795920"
+        },
+        {
+          "name": "Sandra Marsaud",
+          "person_id": "PA719080"
+        },
+        {
+          "name": "Sandrine Lalanne",
+          "person_id": "PA795390"
+        },
+        {
+          "name": "Sandrine Le Feur",
+          "person_id": "PA719412"
+        },
+        {
+          "name": "Sophie Panonacle",
+          "person_id": "PA719632"
+        },
+        {
+          "name": "Stéphane Buchou",
+          "person_id": "PA722000"
+        },
+        {
+          "name": "Stéphane Mazars",
+          "person_id": "PA677483"
+        },
+        {
+          "name": "Stéphane Travert",
+          "person_id": "PA607395"
+        },
+        {
+          "name": "Stéphanie Rist",
+          "person_id": "PA720066"
+        },
+        {
+          "name": "Sylvain Maillard",
+          "person_id": "PA717379"
+        },
+        {
+          "name": "Sébastien Huyghe",
+          "person_id": "PA267200"
+        },
+        {
+          "name": "Thomas Cazenave",
+          "person_id": "PA793940"
+        },
+        {
+          "name": "Thomas Gassilloud",
+          "person_id": "PA722358"
+        },
+        {
+          "name": "Vincent Caure",
+          "person_id": "PA842311"
+        },
+        {
+          "name": "Vincent Ledoux",
+          "person_id": "PA712014"
+        },
+        {
+          "name": "Violette Spillebout",
+          "person_id": "PA794486"
+        },
+        {
+          "name": "Véronique Riotton",
+          "person_id": "PA721426"
+        },
+        {
+          "name": "Yannick Chenevard",
+          "person_id": "PA795908"
+        },
+        {
+          "name": "Yaël Braun-Pivet",
+          "person_id": "PA721908"
+        },
+        {
+          "name": "Élisabeth Borne",
+          "person_id": "PA717161"
+        },
+        {
+          "name": "Éric Bothorel",
+          "person_id": "PA642695"
+        },
+        {
+          "name": "Éric Woerth",
+          "person_id": "PA2960"
+        }
+      ],
+      "name": "Ensemble pour la République",
+      "stats": {
+        "abstain": 2127,
+        "against": 80675,
+        "for": 37286,
+        "nonvoting": 10135,
+        "pct_abstain": 1.6,
+        "pct_against": 62.0,
+        "pct_for": 28.6,
+        "pct_nonvoting": 7.8,
+        "total_group_votes": 130223
+      }
+    },
+    {
+      "acronym": "LFI-NFP",
+      "cohesion": 98.1,
+      "group_id": "PO845413",
+      "member_count": 72,
+      "members": [
+        {
+          "name": "Abdelkader Lahmar",
+          "person_id": "PA841729"
+        },
+        {
+          "name": "Alma Dufour",
+          "person_id": "PA795200"
+        },
+        {
+          "name": "Aly Diouara",
+          "person_id": "PA842155"
+        },
+        {
+          "name": "Anaïs Belouassa-Cherifi",
+          "person_id": "PA841657"
+        },
+        {
+          "name": "Andrée Taurinya",
+          "person_id": "PA794106"
+        },
+        {
+          "name": "Andy Kerbrat",
+          "person_id": "PA794130"
+        },
+        {
+          "name": "Anne Stambach-Terrenoir",
+          "person_id": "PA793744"
+        },
+        {
+          "name": "Antoine Léaument",
+          "person_id": "PA795746"
+        },
+        {
+          "name": "Arnaud Le Gall",
+          "person_id": "PA795672"
+        },
+        {
+          "name": "Arnaud Saint-Martin",
+          "person_id": "PA841845"
+        },
+        {
+          "name": "Aurélie Trouvé",
+          "person_id": "PA795164"
+        },
+        {
+          "name": "Aurélien Le Coq",
+          "person_id": "PA841515"
+        },
+        {
+          "name": "Aurélien Saintoul",
+          "person_id": "PA795982"
+        },
+        {
+          "name": "Aurélien Taché",
+          "person_id": "PA720952"
+        },
+        {
+          "name": "Aymeric Caron",
+          "person_id": "PA796090"
+        },
+        {
+          "name": "Bastien Lachaud",
+          "person_id": "PA720846"
+        },
+        {
+          "name": "Bérenger Cernon",
+          "person_id": "PA842037"
+        },
+        {
+          "name": "Carlos Martens Bilongo",
+          "person_id": "PA795616"
+        },
+        {
+          "name": "Christophe Bex",
+          "person_id": "PA793772"
+        },
+        {
+          "name": "Claire Lejeune",
+          "person_id": "PA842029"
+        },
+        {
+          "name": "Clémence Guetté",
+          "person_id": "PA795310"
+        },
+        {
+          "name": "Damien Maudet",
+          "person_id": "PA795422"
+        },
+        {
+          "name": "Danièle Obono",
+          "person_id": "PA721960"
+        },
+        {
+          "name": "David Guiraud",
+          "person_id": "PA794478"
+        },
+        {
+          "name": "Emmanuel Fernandes",
+          "person_id": "PA794786"
+        },
+        {
+          "name": "Ersilia Soudais",
+          "person_id": "PA795466"
+        },
+        {
+          "name": "Farida Amrani",
+          "person_id": "PA795588"
+        },
+        {
+          "name": "François Piquemal",
+          "person_id": "PA793756"
+        },
+        {
+          "name": "Gabriel Amard",
+          "person_id": "PA794906"
+        },
+        {
+          "name": "Gabrielle Cathala",
+          "person_id": "PA842187"
+        },
+        {
+          "name": "Hadrien Clouet",
+          "person_id": "PA793736"
+        },
+        {
+          "name": "Idir Boumertit",
+          "person_id": "PA794938"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841167"
+        },
+        {
+          "name": "Jean-François Coulomme",
+          "person_id": "PA795136"
+        },
+        {
+          "name": "Jean-Hugues Ratenon",
+          "person_id": "PA721062"
+        },
+        {
+          "name": "Jean-Philippe Nilor",
+          "person_id": "PA610654"
+        },
+        {
+          "name": "Jérôme Legavre",
+          "person_id": "PA795298"
+        },
+        {
+          "name": "Karen Erodi",
+          "person_id": "PA795844"
+        },
+        {
+          "name": "Laurent Alexandre",
+          "person_id": "PA793262"
+        },
+        {
+          "name": "Louis Boyard",
+          "person_id": "PA795318"
+        },
+        {
+          "name": "Loïc Prud'homme",
+          "person_id": "PA719578"
+        },
+        {
+          "name": "Manon Meunier",
+          "person_id": "PA795482"
+        },
+        {
+          "name": "Manuel Bompard",
+          "person_id": "PA793444"
+        },
+        {
+          "name": "Marianne Maximi",
+          "person_id": "PA794686"
+        },
+        {
+          "name": "Marie Mesmeur",
+          "person_id": "PA841215"
+        },
+        {
+          "name": "Mathilde Feld",
+          "person_id": "PA841251"
+        },
+        {
+          "name": "Mathilde Hignet",
+          "person_id": "PA794082"
+        },
+        {
+          "name": "Mathilde Panot",
+          "person_id": "PA720892"
+        },
+        {
+          "name": "Matthias Tavel",
+          "person_id": "PA794166"
+        },
+        {
+          "name": "Maxime Laisney",
+          "person_id": "PA795516"
+        },
+        {
+          "name": "Murielle Lepvraud",
+          "person_id": "PA793532"
+        },
+        {
+          "name": "Nadège Abomangoli",
+          "person_id": "PA795228"
+        },
+        {
+          "name": "Nathalie Oziol",
+          "person_id": "PA793872"
+        },
+        {
+          "name": "Paul Vannier",
+          "person_id": "PA795596"
+        },
+        {
+          "name": "Perceval Gaillard",
+          "person_id": "PA796070"
+        },
+        {
+          "name": "Pierre-Yves Cadalen",
+          "person_id": "PA841023"
+        },
+        {
+          "name": "Raphaël Arnault",
+          "person_id": "PA842105"
+        },
+        {
+          "name": "René Pilato",
+          "person_id": "PA817211"
+        },
+        {
+          "name": "Rodrigo Arenas",
+          "person_id": "PA795084"
+        },
+        {
+          "name": "Sandrine Nosbé",
+          "person_id": "PA841191"
+        },
+        {
+          "name": "Sarah Legrain",
+          "person_id": "PA791824"
+        },
+        {
+          "name": "Sophia Chikirou",
+          "person_id": "PA791812"
+        },
+        {
+          "name": "Sylvain Carrière",
+          "person_id": "PA793912"
+        },
+        {
+          "name": "Sylvie Ferrer",
+          "person_id": "PA794870"
+        },
+        {
+          "name": "Sébastien Delogu",
+          "person_id": "PA793464"
+        },
+        {
+          "name": "Ségolène Amiot",
+          "person_id": "PA794138"
+        },
+        {
+          "name": "Thomas Portes",
+          "person_id": "PA796062"
+        },
+        {
+          "name": "Ugo Bernalicis",
+          "person_id": "PA720430"
+        },
+        {
+          "name": "Zahia Hamdane",
+          "person_id": "PA841947"
+        },
+        {
+          "name": "Élisa Martin",
+          "person_id": "PA342384"
+        },
+        {
+          "name": "Élise Leboucher",
+          "person_id": "PA795108"
+        },
+        {
+          "name": "Éric Coquerel",
+          "person_id": "PA721202"
+        }
+      ],
+      "name": "La France insoumise - Nouveau Front Populaire",
+      "stats": {
+        "abstain": 6910,
+        "against": 60731,
+        "for": 65986,
+        "nonvoting": 446,
+        "pct_abstain": 5.2,
+        "pct_against": 45.3,
+        "pct_for": 49.2,
+        "pct_nonvoting": 0.3,
+        "total_group_votes": 134073
+      }
+    },
+    {
+      "acronym": "SOC",
+      "cohesion": 95.4,
+      "group_id": "PO845419",
+      "member_count": 66,
+      "members": [
+        {
+          "name": "Alain David",
+          "person_id": "PA1008"
+        },
+        {
+          "name": "Anna Pic",
+          "person_id": "PA794270"
+        },
+        {
+          "name": "Arnaud Simion",
+          "person_id": "PA841091"
+        },
+        {
+          "name": "Arthur Delaporte",
+          "person_id": "PA793394"
+        },
+        {
+          "name": "Aurélien Rousseau",
+          "person_id": "PA826635"
+        },
+        {
+          "name": "Ayda Hadizadeh",
+          "person_id": "PA842263"
+        },
+        {
+          "name": "Boris Vallaud",
+          "person_id": "PA719930"
+        },
+        {
+          "name": "Béatrice Bellay",
+          "person_id": "PA842211"
+        },
+        {
+          "name": "Chantal Jourdan",
+          "person_id": "PA643192"
+        },
+        {
+          "name": "Christian Baptiste",
+          "person_id": "PA643143"
+        },
+        {
+          "name": "Christine Pirès Beaune",
+          "person_id": "PA608172"
+        },
+        {
+          "name": "Christophe Proença",
+          "person_id": "PA841367"
+        },
+        {
+          "name": "Claudia Rouaux",
+          "person_id": "PA342196"
+        },
+        {
+          "name": "Colette Capdevielle",
+          "person_id": "PA608264"
+        },
+        {
+          "name": "Céline Hervieu",
+          "person_id": "PA841853"
+        },
+        {
+          "name": "Céline Thiébault-Martinez",
+          "person_id": "PA841893"
+        },
+        {
+          "name": "Denis Fégné",
+          "person_id": "PA841665"
+        },
+        {
+          "name": "Dieynaba Diop",
+          "person_id": "PA841919"
+        },
+        {
+          "name": "Dominique Potier",
+          "person_id": "PA607553"
+        },
+        {
+          "name": "Elie Califer",
+          "person_id": "PA795762"
+        },
+        {
+          "name": "Emmanuel Grégoire",
+          "person_id": "PA840171"
+        },
+        {
+          "name": "Estelle Mercier",
+          "person_id": "PA841463"
+        },
+        {
+          "name": "Fabrice Barusseau",
+          "person_id": "PA840829"
+        },
+        {
+          "name": "Fabrice Roussel",
+          "person_id": "PA841327"
+        },
+        {
+          "name": "Fanny Dombre Coste",
+          "person_id": "PA606573"
+        },
+        {
+          "name": "Fatiha Keloua Hachi",
+          "person_id": "PA795156"
+        },
+        {
+          "name": "Florence Herouin-Léautey",
+          "person_id": "PA841813"
+        },
+        {
+          "name": "François Hollande",
+          "person_id": "PA1654"
+        },
+        {
+          "name": "Guillaume Garot",
+          "person_id": "PA333285"
+        },
+        {
+          "name": "Gérard Leseul",
+          "person_id": "PA774958"
+        },
+        {
+          "name": "Hervé Saulignac",
+          "person_id": "PA340343"
+        },
+        {
+          "name": "Inaki Echaniz",
+          "person_id": "PA794854"
+        },
+        {
+          "name": "Isabelle Santiago",
+          "person_id": "PA774960"
+        },
+        {
+          "name": "Jacques Oberti",
+          "person_id": "PA841107"
+        },
+        {
+          "name": "Jiovanny William",
+          "person_id": "PA720992"
+        },
+        {
+          "name": "Joël Aviragnet",
+          "person_id": "PA642764"
+        },
+        {
+          "name": "Julien Gokel",
+          "person_id": "PA841539"
+        },
+        {
+          "name": "Jérôme Guedj",
+          "person_id": "PA1567"
+        },
+        {
+          "name": "Karim Benbrahim",
+          "person_id": "PA841315"
+        },
+        {
+          "name": "Laurent Baumel",
+          "person_id": "PA606793"
+        },
+        {
+          "name": "Laurent Lhardit",
+          "person_id": "PA840765"
+        },
+        {
+          "name": "Marc Pena",
+          "person_id": "PA840793"
+        },
+        {
+          "name": "Marie Récalde",
+          "person_id": "PA341981"
+        },
+        {
+          "name": "Marie-José Allemand",
+          "person_id": "PA840665"
+        },
+        {
+          "name": "Marie-Noëlle Battistel",
+          "person_id": "PA342415"
+        },
+        {
+          "name": "Marietta Karamanli",
+          "person_id": "PA335054"
+        },
+        {
+          "name": "Mickaël Bouloux",
+          "person_id": "PA794094"
+        },
+        {
+          "name": "Mélanie Thomin",
+          "person_id": "PA793816"
+        },
+        {
+          "name": "Océane Godard",
+          "person_id": "PA840939"
+        },
+        {
+          "name": "Olivier Faure",
+          "person_id": "PA609332"
+        },
+        {
+          "name": "Pascale Got",
+          "person_id": "PA331973"
+        },
+        {
+          "name": "Paul Christophle",
+          "person_id": "PA840903"
+        },
+        {
+          "name": "Peio Dufau",
+          "person_id": "PA841633"
+        },
+        {
+          "name": "Philippe Brun",
+          "person_id": "PA793624"
+        },
+        {
+          "name": "Philippe Naillet",
+          "person_id": "PA643157"
+        },
+        {
+          "name": "Pierre Pribetich",
+          "person_id": "PA840955"
+        },
+        {
+          "name": "Pierrick Courbon",
+          "person_id": "PA841295"
+        },
+        {
+          "name": "Roger Vicot",
+          "person_id": "PA794494"
+        },
+        {
+          "name": "Romain Eskenazi",
+          "person_id": "PA842195"
+        },
+        {
+          "name": "Sandrine Runel",
+          "person_id": "PA841717"
+        },
+        {
+          "name": "Sophie Pantel",
+          "person_id": "PA841381"
+        },
+        {
+          "name": "Stéphane Delautrette",
+          "person_id": "PA795430"
+        },
+        {
+          "name": "Stéphane Hablot",
+          "person_id": "PA841471"
+        },
+        {
+          "name": "Sébastien Saint-Pasteur",
+          "person_id": "PA841243"
+        },
+        {
+          "name": "Thierry Sother",
+          "person_id": "PA841681"
+        },
+        {
+          "name": "Valérie Rossi",
+          "person_id": "PA840673"
+        }
+      ],
+      "name": "Socialistes et apparentés",
+      "stats": {
+        "abstain": 7949,
+        "against": 47751,
+        "for": 56403,
+        "nonvoting": 0,
+        "pct_abstain": 7.1,
+        "pct_against": 42.6,
+        "pct_for": 50.3,
+        "pct_nonvoting": 0.0,
+        "total_group_votes": 112103
+      }
+    },
+    {
+      "acronym": "DR",
+      "cohesion": 87.8,
+      "group_id": "PO845425",
+      "member_count": 59,
+      "members": [
+        {
+          "name": "Alexandra Martin",
+          "person_id": "PA793342"
+        },
+        {
+          "name": "Alexandre Portier",
+          "person_id": "PA794994"
+        },
+        {
+          "name": "Alix Fruchon",
+          "person_id": "PA841151"
+        },
+        {
+          "name": "Anne-Laure Blin",
+          "person_id": "PA774954"
+        },
+        {
+          "name": "Antoine Vermorel-Marques",
+          "person_id": "PA794118"
+        },
+        {
+          "name": "Christelle Minard",
+          "person_id": "PA643104"
+        },
+        {
+          "name": "Corentin Le Fur",
+          "person_id": "PA840979"
+        },
+        {
+          "name": "Eric Liégeon",
+          "person_id": "PA642725"
+        },
+        {
+          "name": "Fabien Di Filippo",
+          "person_id": "PA720386"
+        },
+        {
+          "name": "Fabrice Brun",
+          "person_id": "PA718838"
+        },
+        {
+          "name": "François-Xavier Ceccoli",
+          "person_id": "PA841047"
+        },
+        {
+          "name": "Frédérique Meunier",
+          "person_id": "PA719272"
+        },
+        {
+          "name": "Guillaume Lepers",
+          "person_id": "PA695512"
+        },
+        {
+          "name": "Hubert Brigand",
+          "person_id": "PA793508"
+        },
+        {
+          "name": "Ian Boucard",
+          "person_id": "PA721816"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA1327"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA605991"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA606098"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA721442"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA722328"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA794042"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA794750"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841745"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841869"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA842117"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA870010"
+        },
+        {
+          "name": "Jean-Louis Thiériot",
+          "person_id": "PA643089"
+        },
+        {
+          "name": "Jean-Luc Bourgeaux",
+          "person_id": "PA342240"
+        },
+        {
+          "name": "Jean-Pierre Taite",
+          "person_id": "PA794178"
+        },
+        {
+          "name": "Jean-Pierre Vigier",
+          "person_id": "PA607090"
+        },
+        {
+          "name": "Jean-Yves Bony",
+          "person_id": "PA266793"
+        },
+        {
+          "name": "Josiane Corneloup",
+          "person_id": "PA722390"
+        },
+        {
+          "name": "Julien Dive",
+          "person_id": "PA712015"
+        },
+        {
+          "name": "Justine Gruet",
+          "person_id": "PA794058"
+        },
+        {
+          "name": "Jérôme Nury",
+          "person_id": "PA720644"
+        },
+        {
+          "name": "Laurent Wauquiez",
+          "person_id": "PA267285"
+        },
+        {
+          "name": "Lionel Duparay",
+          "person_id": "PA870009"
+        },
+        {
+          "name": "Marie-Christine Dalloz",
+          "person_id": "PA332523"
+        },
+        {
+          "name": "Michel Barnier",
+          "person_id": "PA368"
+        },
+        {
+          "name": "Michel Herbillon",
+          "person_id": "PA1630"
+        },
+        {
+          "name": "Michèle Tabarot",
+          "person_id": "PA267794"
+        },
+        {
+          "name": "Nicolas Ray",
+          "person_id": "PA793094"
+        },
+        {
+          "name": "Nicolas Tryzna",
+          "person_id": "PA842121"
+        },
+        {
+          "name": "Patrick Hetzel",
+          "person_id": "PA608416"
+        },
+        {
+          "name": "Philippe Gosselin",
+          "person_id": "PA266797"
+        },
+        {
+          "name": "Philippe Juvin",
+          "person_id": "PA346782"
+        },
+        {
+          "name": "Pierre Cordier",
+          "person_id": "PA718850"
+        },
+        {
+          "name": "Sylvie Bonnet",
+          "person_id": "PA719968"
+        },
+        {
+          "name": "Thibault Bazin",
+          "person_id": "PA642847"
+        },
+        {
+          "name": "Valérie Bazin-Malgras",
+          "person_id": "PA718884"
+        },
+        {
+          "name": "Vincent Descoeur",
+          "person_id": "PA330909"
+        },
+        {
+          "name": "Vincent Rolland",
+          "person_id": "PA266808"
+        },
+        {
+          "name": "Virginie Duby-Muller",
+          "person_id": "PA608826"
+        },
+        {
+          "name": "Véronique Louwagie",
+          "person_id": "PA608016"
+        },
+        {
+          "name": "Xavier Breton",
+          "person_id": "PA330008"
+        },
+        {
+          "name": "Yannick Neuder",
+          "person_id": "PA794038"
+        },
+        {
+          "name": "Élisabeth de Maistre",
+          "person_id": "PA842141"
+        },
+        {
+          "name": "Émilie Bonnivard",
+          "person_id": "PA721410"
+        },
+        {
+          "name": "Éric Pauget",
+          "person_id": "PA718784"
+        }
+      ],
+      "name": "Droite Républicaine",
+      "stats": {
+        "abstain": 3193,
+        "against": 26338,
+        "for": 18016,
+        "nonvoting": 2717,
+        "pct_abstain": 6.4,
+        "pct_against": 52.4,
+        "pct_for": 35.8,
+        "pct_nonvoting": 5.4,
+        "total_group_votes": 50264
+      }
+    },
+    {
+      "acronym": "HOR",
+      "cohesion": 88.0,
+      "group_id": "PO845470",
+      "member_count": 39,
+      "members": [
+        {
+          "name": "Agnès Firmin Le Bodo",
+          "person_id": "PA267780"
+        },
+        {
+          "name": "Anne-Cécile Violland",
+          "person_id": "PA795026"
+        },
+        {
+          "name": "Benoît Blanchard",
+          "person_id": "PA842183"
+        },
+        {
+          "name": "Bertrand Bouyx",
+          "person_id": "PA719032"
+        },
+        {
+          "name": "Béatrice Bellamy",
+          "person_id": "PA795278"
+        },
+        {
+          "name": "Béatrice Piron",
+          "person_id": "PA721844"
+        },
+        {
+          "name": "Christophe Plassard",
+          "person_id": "PA793572"
+        },
+        {
+          "name": "Didier Lemaire",
+          "person_id": "PA794838"
+        },
+        {
+          "name": "François Gernigon",
+          "person_id": "PA794234"
+        },
+        {
+          "name": "François Jolivet",
+          "person_id": "PA719778"
+        },
+        {
+          "name": "Frédéric Valletoux",
+          "person_id": "PA795350"
+        },
+        {
+          "name": "Félicie Gérard",
+          "person_id": "PA794470"
+        },
+        {
+          "name": "Henri Alfandari",
+          "person_id": "PA793992"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA719282"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA720480"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA720908"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA794426"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA794518"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841013"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA841833"
+        },
+        {
+          "name": "Isabelle Rauch",
+          "person_id": "PA720552"
+        },
+        {
+          "name": "Jean Moulliere",
+          "person_id": "PA794466"
+        },
+        {
+          "name": "Jean-François Portarrieu",
+          "person_id": "PA719528"
+        },
+        {
+          "name": "Jean-Michel Brard",
+          "person_id": "PA841339"
+        },
+        {
+          "name": "Jérémie Patrier-Leitus",
+          "person_id": "PA793398"
+        },
+        {
+          "name": "Laetitia Saint-Paul",
+          "person_id": "PA720138"
+        },
+        {
+          "name": "Laurent Marcangeli",
+          "person_id": "PA605782"
+        },
+        {
+          "name": "Lise Magnier",
+          "person_id": "PA720230"
+        },
+        {
+          "name": "Loïc Kervran",
+          "person_id": "PA719052"
+        },
+        {
+          "name": "Marie-Agnès Poussier-Winsback",
+          "person_id": "PA795270"
+        },
+        {
+          "name": "Michel Criaud",
+          "person_id": "PA794430"
+        },
+        {
+          "name": "Nathalie Colin-Oesterlé",
+          "person_id": "PA841431"
+        },
+        {
+          "name": "Paul Christophe",
+          "person_id": "PA642868"
+        },
+        {
+          "name": "Pierre Henriet",
+          "person_id": "PA722070"
+        },
+        {
+          "name": "Thierry Benoit",
+          "person_id": "PA332228"
+        },
+        {
+          "name": "Thomas Lam",
+          "person_id": "PA842125"
+        },
+        {
+          "name": "Vincent Thiébaut",
+          "person_id": "PA722336"
+        },
+        {
+          "name": "Xavier Albertini",
+          "person_id": "PA794278"
+        },
+        {
+          "name": "Xavier Roseren",
+          "person_id": "PA721458"
+        }
+      ],
+      "name": "Horizons & Indépendants",
+      "stats": {
+        "abstain": 2842,
+        "against": 27498,
+        "for": 13948,
+        "nonvoting": 2308,
+        "pct_abstain": 6.1,
+        "pct_against": 59.0,
+        "pct_for": 29.9,
+        "pct_nonvoting": 5.0,
+        "total_group_votes": 46596
+      }
+    },
+    {
+      "acronym": "Dem",
+      "cohesion": 91.4,
+      "group_id": "PO845454",
+      "member_count": 39,
+      "members": [
+        {
+          "name": "Anne Bergantz",
+          "person_id": "PA805166"
+        },
+        {
+          "name": "Blandine Brocard",
+          "person_id": "PA721336"
+        },
+        {
+          "name": "Bruno Fuchs",
+          "person_id": "PA722284"
+        },
+        {
+          "name": "Christophe Blanchet",
+          "person_id": "PA719024"
+        },
+        {
+          "name": "Cyrille Isaac-Sibille",
+          "person_id": "PA722374"
+        },
+        {
+          "name": "Delphine Lingemann",
+          "person_id": "PA794702"
+        },
+        {
+          "name": "Didier Padey",
+          "person_id": "PA795124"
+        },
+        {
+          "name": "Emmanuel Mandon",
+          "person_id": "PA794114"
+        },
+        {
+          "name": "Erwan Balanant",
+          "person_id": "PA719558"
+        },
+        {
+          "name": "Frantz Gumbs",
+          "person_id": "PA795258"
+        },
+        {
+          "name": "Frédéric Petit",
+          "person_id": "PA721182"
+        },
+        {
+          "name": "Geneviève Darrieussecq",
+          "person_id": "PA719914"
+        },
+        {
+          "name": "Géraldine Bannier",
+          "person_id": "PA720256"
+        },
+        {
+          "name": "Hubert Ott",
+          "person_id": "PA794830"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA719918"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA721836"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA795120"
+        },
+        {
+          "name": "Jean-Carles Grelier",
+          "person_id": "PA267318"
+        },
+        {
+          "name": "Jean-Paul Mattei",
+          "person_id": "PA720728"
+        },
+        {
+          "name": "Jimmy Pahun",
+          "person_id": "PA720334"
+        },
+        {
+          "name": "Josy Poueyto",
+          "person_id": "PA720720"
+        },
+        {
+          "name": "Laurent Croizier",
+          "person_id": "PA793716"
+        },
+        {
+          "name": "Louise Morel",
+          "person_id": "PA794810"
+        },
+        {
+          "name": "Marc Fesneau",
+          "person_id": "PA719938"
+        },
+        {
+          "name": "Maud Petit",
+          "person_id": "PA721234"
+        },
+        {
+          "name": "Mickaël Cosson",
+          "person_id": "PA793520"
+        },
+        {
+          "name": "Nicolas Turquois",
+          "person_id": "PA722162"
+        },
+        {
+          "name": "Olivier Falorni",
+          "person_id": "PA605694"
+        },
+        {
+          "name": "Pascal Lecamp",
+          "person_id": "PA795374"
+        },
+        {
+          "name": "Perrine Goulet",
+          "person_id": "PA720560"
+        },
+        {
+          "name": "Philippe Bolo",
+          "person_id": "PA720162"
+        },
+        {
+          "name": "Philippe Latombe",
+          "person_id": "PA721984"
+        },
+        {
+          "name": "Philippe Vigier",
+          "person_id": "PA331582"
+        },
+        {
+          "name": "Richard Ramos",
+          "person_id": "PA720092"
+        },
+        {
+          "name": "Romain Daubié",
+          "person_id": "PA793122"
+        },
+        {
+          "name": "Sabine Thillaye",
+          "person_id": "PA719822"
+        },
+        {
+          "name": "Sandrine Josso",
+          "person_id": "PA720038"
+        },
+        {
+          "name": "Sophie Mette",
+          "person_id": "PA719640"
+        },
+        {
+          "name": "Éric Martineau",
+          "person_id": "PA795100"
+        }
+      ],
+      "name": "Les Démocrates",
+      "stats": {
+        "abstain": 1724,
+        "against": 30066,
+        "for": 15957,
+        "nonvoting": 1139,
+        "pct_abstain": 3.5,
+        "pct_against": 61.5,
+        "pct_for": 32.6,
+        "pct_nonvoting": 2.3,
+        "total_group_votes": 48886
+      }
+    },
+    {
+      "acronym": "EcoS",
+      "cohesion": 95.9,
+      "group_id": "PO845439",
+      "member_count": 38,
+      "members": [
+        {
+          "name": "Alexis Corbière",
+          "person_id": "PA721210"
+        },
+        {
+          "name": "Arnaud Bonnet",
+          "person_id": "PA841885"
+        },
+        {
+          "name": "Benjamin Lucas-Lundy",
+          "person_id": "PA795636"
+        },
+        {
+          "name": "Benoît Biteau",
+          "person_id": "PA840997"
+        },
+        {
+          "name": "Boris Tavernier",
+          "person_id": "PA841713"
+        },
+        {
+          "name": "Catherine Hervieu",
+          "person_id": "PA840947"
+        },
+        {
+          "name": "Charles Fournier",
+          "person_id": "PA793980"
+        },
+        {
+          "name": "Christine Arrighi",
+          "person_id": "PA793780"
+        },
+        {
+          "name": "Clémentine Autain",
+          "person_id": "PA588884"
+        },
+        {
+          "name": "Cyrielle Chatelain",
+          "person_id": "PA794008"
+        },
+        {
+          "name": "Damien Girard",
+          "person_id": "PA841419"
+        },
+        {
+          "name": "Danielle Simonnet",
+          "person_id": "PA796018"
+        },
+        {
+          "name": "Delphine Batho",
+          "person_id": "PA335999"
+        },
+        {
+          "name": "Dominique Voynet",
+          "person_id": "PA2940"
+        },
+        {
+          "name": "Emmanuel Duplessy",
+          "person_id": "PA841351"
+        },
+        {
+          "name": "Eva Sas",
+          "person_id": "PA610002"
+        },
+        {
+          "name": "François Ruffin",
+          "person_id": "PA722142"
+        },
+        {
+          "name": "Hendrik Davi",
+          "person_id": "PA793452"
+        },
+        {
+          "name": "Jean-Claude Raux",
+          "person_id": "PA794154"
+        },
+        {
+          "name": "Jean-Louis Roumégas",
+          "person_id": "PA606545"
+        },
+        {
+          "name": "Julie Laernoes",
+          "person_id": "PA794146"
+        },
+        {
+          "name": "Julie Ozenne",
+          "person_id": "PA842045"
+        },
+        {
+          "name": "Jérémie Iordanoff",
+          "person_id": "PA794022"
+        },
+        {
+          "name": "Karim Ben Cheikh",
+          "person_id": "PA795454"
+        },
+        {
+          "name": "Lisa Belluco",
+          "person_id": "PA795362"
+        },
+        {
+          "name": "Léa Balage El Mariky",
+          "person_id": "PA841701"
+        },
+        {
+          "name": "Marie Pochon",
+          "person_id": "PA793664"
+        },
+        {
+          "name": "Marie-Charlotte Garin",
+          "person_id": "PA795010"
+        },
+        {
+          "name": "Nicolas Bonnet",
+          "person_id": "PA841507"
+        },
+        {
+          "name": "Nicolas Thierry",
+          "person_id": "PA793948"
+        },
+        {
+          "name": "Pouria Amirshahi",
+          "person_id": "PA610968"
+        },
+        {
+          "name": "Sabrina Sebaihi",
+          "person_id": "PA795808"
+        },
+        {
+          "name": "Sandra Regol",
+          "person_id": "PA794778"
+        },
+        {
+          "name": "Sandrine Rousseau",
+          "person_id": "PA795076"
+        },
+        {
+          "name": "Sophie Taillé-Polian",
+          "person_id": "PA736201"
+        },
+        {
+          "name": "Steevy Gustave",
+          "person_id": "PA842013"
+        },
+        {
+          "name": "Sébastien Peytavie",
+          "person_id": "PA793708"
+        },
+        {
+          "name": "Tristan Lahais",
+          "person_id": "PA841223"
+        }
+      ],
+      "name": "Écologiste et Social",
+      "stats": {
+        "abstain": 3608,
+        "against": 26264,
+        "for": 33349,
+        "nonvoting": 420,
+        "pct_abstain": 5.7,
+        "pct_against": 41.3,
+        "pct_for": 52.4,
+        "pct_nonvoting": 0.7,
+        "total_group_votes": 63641
+      }
+    },
+    {
+      "acronym": "LIOT",
+      "cohesion": 85.9,
+      "group_id": "PO845485",
+      "member_count": 24,
+      "members": [
+        {
+          "name": "Audrey Abadie-Amiel",
+          "person_id": "PA793214"
+        },
+        {
+          "name": "Charles de Courson",
+          "person_id": "PA942"
+        },
+        {
+          "name": "Christophe Naegelen",
+          "person_id": "PA721486"
+        },
+        {
+          "name": "Constance de Pélichy",
+          "person_id": "PA841359"
+        },
+        {
+          "name": "David Habib",
+          "person_id": "PA1592"
+        },
+        {
+          "name": "Estelle Youssouffa",
+          "person_id": "PA796078"
+        },
+        {
+          "name": "Harold Huwart",
+          "person_id": "PA841017"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA793210"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA794554"
+        },
+        {
+          "name": "Jean-Luc Warsmann",
+          "person_id": "PA2952"
+        },
+        {
+          "name": "Jean-Pierre Bataille",
+          "person_id": "PA267763"
+        },
+        {
+          "name": "Joël Bruneau",
+          "person_id": "PA840817"
+        },
+        {
+          "name": "Laurent Mazaury",
+          "person_id": "PA841931"
+        },
+        {
+          "name": "Martine Froger",
+          "person_id": "PA822617"
+        },
+        {
+          "name": "Max Mathiasin",
+          "person_id": "PA720976"
+        },
+        {
+          "name": "Michel Castellani",
+          "person_id": "PA719138"
+        },
+        {
+          "name": "Nicole Sanquer",
+          "person_id": "PA721110"
+        },
+        {
+          "name": "Olivier Serva",
+          "person_id": "PA720960"
+        },
+        {
+          "name": "Paul Molac",
+          "person_id": "PA607619"
+        },
+        {
+          "name": "Paul-André Colombani",
+          "person_id": "PA719286"
+        },
+        {
+          "name": "Stéphane Lenormand",
+          "person_id": "PA795244"
+        },
+        {
+          "name": "Stéphane Viry",
+          "person_id": "PA721474"
+        },
+        {
+          "name": "Valérie Létard",
+          "person_id": "PA227089"
+        },
+        {
+          "name": "Yannick Favennec-Bécot",
+          "person_id": "PA267042"
+        }
+      ],
+      "name": "Libertés, Indépendants, Outre-mer et Territoires",
+      "stats": {
+        "abstain": 1254,
+        "against": 8277,
+        "for": 7008,
+        "nonvoting": 644,
+        "pct_abstain": 7.3,
+        "pct_against": 48.2,
+        "pct_for": 40.8,
+        "pct_nonvoting": 3.7,
+        "total_group_votes": 17183
+      }
+    },
+    {
+      "acronym": "GDR",
+      "cohesion": 97.3,
+      "group_id": "PO845514",
+      "member_count": 18,
+      "members": [
+        {
+          "name": "Davy Rimane",
+          "person_id": "PA795876"
+        },
+        {
+          "name": "Elsa Faucillon",
+          "person_id": "PA721896"
+        },
+        {
+          "name": "Emmanuel Maurel",
+          "person_id": "PA842271"
+        },
+        {
+          "name": "Emmanuel Tjibaou",
+          "person_id": "PA842299"
+        },
+        {
+          "name": "Frédéric Maillot",
+          "person_id": "PA796010"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA267306"
+        },
+        {
+          "name": "Jean-Paul Lecoq",
+          "person_id": "PA335612"
+        },
+        {
+          "name": "Jean-Victor Castor",
+          "person_id": "PA795868"
+        },
+        {
+          "name": "Julien Brugerolles",
+          "person_id": "PA794710"
+        },
+        {
+          "name": "Karine Lebon",
+          "person_id": "PA774962"
+        },
+        {
+          "name": "Marcellin Nadeau",
+          "person_id": "PA795820"
+        },
+        {
+          "name": "Mereana Reid Arbelot",
+          "person_id": "PA795240"
+        },
+        {
+          "name": "Nicolas Sansu",
+          "person_id": "PA605745"
+        },
+        {
+          "name": "Soumya Bourouaha",
+          "person_id": "PA720838"
+        },
+        {
+          "name": "Stéphane Peu",
+          "person_id": "PA721270"
+        },
+        {
+          "name": "Yannick Monnet",
+          "person_id": "PA793174"
+        },
+        {
+          "name": "Édouard Bénard",
+          "person_id": "PA796106"
+        },
+        {
+          "name": "Émeline K/Bidi",
+          "person_id": "PA795998"
+        }
+      ],
+      "name": "Gauche Démocrate et Républicaine",
+      "stats": {
+        "abstain": 831,
+        "against": 5940,
+        "for": 6845,
+        "nonvoting": 0,
+        "pct_abstain": 6.1,
+        "pct_against": 43.6,
+        "pct_for": 50.3,
+        "pct_nonvoting": 0.0,
+        "total_group_votes": 13616
+      }
+    },
+    {
+      "acronym": null,
+      "cohesion": 96.9,
+      "group_id": "PO847173",
+      "member_count": 15,
+      "members": [
+        {
+          "name": "Alexandre Allegret-Pilot",
+          "person_id": "PA841067"
+        },
+        {
+          "name": "Bartolomé Lenoir",
+          "person_id": "PA840983"
+        },
+        {
+          "name": "Bernard Chaix",
+          "person_id": "PA840701"
+        },
+        {
+          "name": "Charles Alloncle",
+          "person_id": "PA841207"
+        },
+        {
+          "name": "Gérault Verny",
+          "person_id": "PA840809"
+        },
+        {
+          "name": "Hanane Mansouri",
+          "person_id": "PA841183"
+        },
+        {
+          "name": "Inconnu",
+          "person_id": "PA267561"
+        },
+        {
+          "name": "Marc Chavent",
+          "person_id": "PA840721"
+        },
+        {
+          "name": "Matthieu Bloch",
+          "person_id": "PA840889"
+        },
+        {
+          "name": "Maxime Michelet",
+          "person_id": "PA841395"
+        },
+        {
+          "name": "Olivier Fayssat",
+          "person_id": "PA840773"
+        },
+        {
+          "name": "Sophie Ricourt Vaginay",
+          "person_id": "PA840657"
+        },
+        {
+          "name": "Vincent Trébuchet",
+          "person_id": "PA840685"
+        },
+        {
+          "name": "Éric Ciotti",
+          "person_id": "PA330240"
+        },
+        {
+          "name": "Éric Michoux",
+          "person_id": "PA841769"
+        }
+      ],
+      "name": null,
+      "stats": {
+        "abstain": 801,
+        "against": 4496,
+        "for": 6362,
+        "nonvoting": 0,
+        "pct_abstain": 6.9,
+        "pct_against": 38.6,
+        "pct_for": 54.6,
+        "pct_nonvoting": 0.0,
+        "total_group_votes": 11659
+      }
+    },
+    {
+      "acronym": "NI",
+      "cohesion": 90.3,
+      "group_id": "PO840056",
+      "member_count": 10,
+      "members": [
+        {
+          "name": "Aurélien Pradié",
+          "person_id": "PA720100"
+        },
+        {
+          "name": "Daniel Grenon",
+          "person_id": "PA795540"
+        },
+        {
+          "name": "David Taupiac",
+          "person_id": "PA793796"
+        },
+        {
+          "name": "Lionel Vuibert",
+          "person_id": "PA793194"
+        },
+        {
+          "name": "Philippe Bonnecarrère",
+          "person_id": "PA569"
+        },
+        {
+          "name": "Raphaël Schellenberger",
+          "person_id": "PA721314"
+        },
+        {
+          "name": "Sacha Houlié",
+          "person_id": "PA722150"
+        },
+        {
+          "name": "Sophie Errante",
+          "person_id": "PA607193"
+        },
+        {
+          "name": "Stella Dupont",
+          "person_id": "PA643175"
+        },
+        {
+          "name": "Véronique Besse",
+          "person_id": "PA309643"
+        }
+      ],
+      "name": "Non inscrit",
+      "stats": {
+        "abstain": 409,
+        "against": 4228,
+        "for": 2876,
+        "nonvoting": 91,
+        "pct_abstain": 5.4,
+        "pct_against": 55.6,
+        "pct_for": 37.8,
+        "pct_nonvoting": 1.2,
+        "total_group_votes": 7604
+      }
+    },
+    {
+      "acronym": "Assemblée",
+      "cohesion": 88.3,
+      "group_id": "PO838901",
+      "member_count": 3,
+      "members": [
+        {
+          "name": "Christelle D'Intorni",
+          "person_id": "PA793322"
+        },
+        {
+          "name": "Jean-Didier Berger",
+          "person_id": "PA408578"
+        },
+        {
+          "name": "Sylvain Berrios",
+          "person_id": "PA687214"
+        }
+      ],
+      "name": "Assemblée nationale de la 17ème législature",
+      "stats": {
+        "abstain": 237,
+        "against": 872,
+        "for": 881,
+        "nonvoting": 268,
+        "pct_abstain": 10.5,
+        "pct_against": 38.6,
+        "pct_for": 39.0,
+        "pct_nonvoting": 11.9,
+        "total_group_votes": 2258
+      }
+    },
+    {
+      "acronym": "UDR",
+      "cohesion": 96.4,
+      "group_id": "PO872880",
+      "member_count": 2,
+      "members": [
+        {
+          "name": "Antoine Valentin",
+          "person_id": "PA878242"
+        },
+        {
+          "name": "Pierre-Henri Carbonnel",
+          "person_id": "PA841973"
+        }
+      ],
+      "name": "Union des droites pour la République",
+      "stats": {
+        "abstain": 1409,
+        "against": 5688,
+        "for": 5001,
+        "nonvoting": 0,
+        "pct_abstain": 11.6,
+        "pct_against": 47.0,
+        "pct_for": 41.3,
+        "pct_nonvoting": 0.0,
+        "total_group_votes": 12098
+      }
+    }
+  ]
+}

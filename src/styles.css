@@ -12,8 +12,14 @@ body {
 .header {
   background: linear-gradient(135deg, #0d1b2a 0%, #1b2d4f 100%);
   color: #fff;
-  padding: 24px 32px 20px;
+  padding: 20px 32px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
 }
 .header h1 {
   margin: 0 0 2px;
@@ -24,10 +30,39 @@ body {
 .header .subtitle {
   font-size: 13px;
   color: rgba(255,255,255,0.6);
-  margin-bottom: 16px;
+  margin: 0;
 }
 
-/* ===== FILTERS (header) ===== */
+/* ===== NAV TABS ===== */
+.nav-tabs {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.nav-tab {
+  padding: 8px 18px;
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.7);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.nav-tab.active {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  font-weight: 600;
+}
+.nav-tab:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* ===== VIEW PANELS ===== */
+.view-panel.hidden { display: none; }
+
+/* ===== FILTERS ===== */
 .filters {
   display: flex;
   gap: 10px;
@@ -38,51 +73,50 @@ body {
 .filters select {
   padding: 9px 14px;
   font-size: 13.5px;
-  border: 1px solid rgba(255,255,255,0.15);
   border-radius: 8px;
-  background: rgba(255,255,255,0.1);
-  color: #fff;
   outline: none;
   transition: all 0.2s;
   min-width: 180px;
 }
-.filters input::placeholder { color: rgba(255,255,255,0.45); }
-.filters input:focus,
-.filters select:focus {
-  border-color: rgba(255,255,255,0.4);
-  background: rgba(255,255,255,0.15);
-  box-shadow: 0 0 0 3px rgba(100,150,255,0.15);
-}
-.filters select option { color: #1a1a2e; background: #fff; }
 
-/* ===== FILTERS (detail panel, fond clair) ===== */
-.detail .filters input,
-.detail .filters select {
+/* filters sur fond clair (main + overlays) */
+.filters-light input,
+.filters-light select,
+.detail-body .filters input,
+.detail-body .filters select {
   background: #fff;
   color: #1a1a2e;
   border: 1px solid #d1d5db;
 }
-.detail .filters input::placeholder { color: #9ca3af; }
-.detail .filters input:focus,
-.detail .filters select:focus {
+.filters-light input::placeholder,
+.detail-body .filters input::placeholder { color: #9ca3af; }
+.filters-light input:focus,
+.filters-light select:focus,
+.detail-body .filters input:focus,
+.detail-body .filters select:focus {
   border-color: #3b6cb5;
   box-shadow: 0 0 0 3px rgba(59,108,181,0.12);
 }
+.filters select option { color: #1a1a2e; background: #fff; }
 
 /* ===== META / COUNTERS ===== */
 .meta {
-  color: rgba(255,255,255,0.55);
   font-size: 12.5px;
   margin-top: 12px;
+}
+.meta-light {
+  color: #6b7280;
 }
 .meta-badge {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  background: rgba(255,255,255,0.1);
+  background: #e0e7ff;
+  color: #3730a3;
   padding: 3px 10px;
   border-radius: 20px;
   font-size: 12px;
+  font-weight: 600;
 }
 
 /* ===== MAIN CONTENT ===== */
@@ -122,6 +156,10 @@ body {
   border-bottom: 1px solid #f3f4f6;
   vertical-align: middle;
 }
+.table tbody td:first-child,
+.table thead th:first-child {
+  white-space: nowrap;
+}
 .table tbody tr {
   transition: background 0.15s;
 }
@@ -150,11 +188,11 @@ body {
   color: #991b1b;
 }
 
-/* ===== VOTE COLORS (dans le tableau scrutins) ===== */
+/* ===== VOTE COLORS ===== */
 .vote-pour { color: #166534; font-weight: 600; }
 .vote-contre { color: #b91c1c; font-weight: 600; }
 
-/* ===== VOTE BADGES (dans le tableau des votes) ===== */
+/* ===== VOTE BADGES ===== */
 .vote-badge {
   display: inline-block;
   padding: 2px 10px;
@@ -196,30 +234,35 @@ button { cursor: pointer; }
   background: #1d4ed8;
   box-shadow: 0 2px 8px rgba(37,99,235,0.3);
 }
+.btn-sm {
+  padding: 5px 12px;
+  font-size: 12px;
+}
 .btn-close {
-  background: #f3f4f6;
-  color: #374151;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
   padding: 6px 14px;
   font-size: 13px;
 }
 .btn-close:hover {
-  background: #e5e7eb;
+  background: rgba(255,255,255,0.25);
 }
 
 /* ===== OVERLAY / MODAL ===== */
 .overlay {
   position: fixed;
   inset: 0;
-  z-index: 1000;
   background: rgba(0,0,0,0.5);
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 24px;
-  opacity: 1;
   transition: opacity 0.25s;
 }
+#overlay { z-index: 1000; }
+#deputy-overlay { z-index: 1100; }
+#group-overlay { z-index: 1200; }
 .overlay.hidden {
   display: none;
 }
@@ -233,6 +276,9 @@ button { cursor: pointer; }
   overflow: hidden;
   box-shadow: 0 8px 40px rgba(0,0,0,0.25);
   animation: overlayIn 0.25s ease-out;
+}
+.overlay-wide {
+  max-width: 1100px;
 }
 @keyframes overlayIn {
   from { opacity: 0; transform: translateY(20px) scale(0.97); }
@@ -283,12 +329,174 @@ body.overlay-open {
   color: #6b7280;
 }
 
+/* ===== STATS GRID (fiches) ===== */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: #f8f9fb;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+}
+.stat-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+.stat-label {
+  font-size: 12px;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+.stat-card.stat-pour .stat-value { color: #166534; }
+.stat-card.stat-contre .stat-value { color: #991b1b; }
+.stat-card.stat-abstention .stat-value { color: #92400e; }
+.stat-card.stat-nonvotant .stat-value { color: #6b7280; }
+.stat-card.stat-participation .stat-value { color: #2563eb; }
+
+/* ===== SECTION TITLE ===== */
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 24px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* ===== MEMBERS GRID ===== */
+.members-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.member-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  background: #f3f4f6;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+.member-chip:hover {
+  background: #e0e7ff;
+  color: #2563eb;
+}
+
+/* ===== GROUPS GRID ===== */
+.groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+.group-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.group-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-color: #3b6cb5;
+}
+.group-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.group-card-acronym {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #1e3a5f, #2a4a7f);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.group-card-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+.group-card-members {
+  font-size: 13px;
+  color: #6b7280;
+}
+.group-card-stats {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #f3f4f6;
+}
+.group-card-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.group-card-stat-value {
+  font-weight: 700;
+  font-size: 15px;
+}
+.group-card-stat-label {
+  font-size: 11px;
+  color: #6b7280;
+  text-transform: uppercase;
+}
+
+/* ===== GROUP BADGE ===== */
+.group-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+/* ===== CLICKABLE LINKS ===== */
+.deputy-link, .group-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.deputy-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+.group-link:hover .group-badge {
+  background: #c7d2fe;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .header { padding: 16px; }
+  .header-top { flex-direction: column; align-items: flex-start; }
+  .nav-tabs { width: 100%; margin-top: 12px; }
+  .nav-tab { flex: 1; text-align: center; }
   .main { padding: 16px; }
   .filters input, .filters select { min-width: 100%; }
   .table { font-size: 13px; }
   .table thead th, .table tbody td { padding: 8px 10px; }
   .detail-head { flex-direction: column; }
+  .stats-grid { grid-template-columns: repeat(3, 1fr); }
+  .groups-grid { grid-template-columns: 1fr; }
 }

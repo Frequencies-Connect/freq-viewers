@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T12:28:30.496610+00:00",
+  "generated_at": "2026-02-13T09:00:42.640801+00:00",
   "people": [
     {
       "chamber": "AN",
@@ -15,6 +15,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Agnès Pannier-Runacher",
+      "person_id": "PA759832"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845419",
       "name": "Alain David",
       "person_id": "PA1008"
@@ -27,7 +33,13 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO845401",
+      "name": "Alexandra Masson",
+      "person_id": "PA793314"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO847173",
       "name": "Alexandre Allegret-Pilot",
       "person_id": "PA841067"
     },
@@ -42,6 +54,12 @@
       "group": "PO845401",
       "name": "Alexandre Loubet",
       "person_id": "PA794590"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Alexandre Portier",
+      "person_id": "PA794994"
     },
     {
       "chamber": "AN",
@@ -141,6 +159,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Anne Genetet",
+      "person_id": "PA721024"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845401",
       "name": "Anne Sicard",
       "person_id": "PA842255"
@@ -159,9 +183,21 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845425",
+      "name": "Anne-Laure Blin",
+      "person_id": "PA774954"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845407",
       "name": "Anne-Sophie Ronceret",
       "person_id": "PA841927"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Annie Vidal",
+      "person_id": "PA722102"
     },
     {
       "chamber": "AN",
@@ -195,6 +231,18 @@
     },
     {
       "chamber": "AN",
+      "group": "PO872880",
+      "name": "Antoine Valentin",
+      "person_id": "PA878242"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Antoine Vermorel-Marques",
+      "person_id": "PA794118"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845401",
       "name": "Antoine Villedieu",
       "person_id": "PA794946"
@@ -216,6 +264,30 @@
       "group": "PO845413",
       "name": "Arnaud Saint-Martin",
       "person_id": "PA841845"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Arnaud Simion",
+      "person_id": "PA841091"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Arthur Delaporte",
+      "person_id": "PA793394"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Astrid Panosyan-Bouvet",
+      "person_id": "PA795050"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Audrey Abadie-Amiel",
+      "person_id": "PA793214"
     },
     {
       "chamber": "AN",
@@ -249,6 +321,18 @@
     },
     {
       "chamber": "AN",
+      "group": "PO840056",
+      "name": "Aurélien Pradié",
+      "person_id": "PA720100"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Aurélien Rousseau",
+      "person_id": "PA826635"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845413",
       "name": "Aurélien Saintoul",
       "person_id": "PA795982"
@@ -273,7 +357,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Bartolomé Lenoir",
       "person_id": "PA840983"
     },
@@ -291,9 +375,15 @@
     },
     {
       "chamber": "AN",
-      "group": "PO845419",
+      "group": "PO845407",
       "name": "Belkhir Belhaddad",
       "person_id": "PA720362"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Benjamin Dirx",
+      "person_id": "PA722382"
     },
     {
       "chamber": "AN",
@@ -321,7 +411,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Bernard Chaix",
       "person_id": "PA840701"
     },
@@ -336,6 +426,12 @@
       "group": "PO845407",
       "name": "Bertrand Sorre",
       "person_id": "PA720190"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845454",
+      "name": "Blandine Brocard",
+      "person_id": "PA721336"
     },
     {
       "chamber": "AN",
@@ -390,6 +486,12 @@
       "group": "PO845470",
       "name": "Béatrice Bellamy",
       "person_id": "PA795278"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Béatrice Bellay",
+      "person_id": "PA842211"
     },
     {
       "chamber": "AN",
@@ -471,9 +573,21 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Charles Alloncle",
       "person_id": "PA841207"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845439",
+      "name": "Charles Fournier",
+      "person_id": "PA793980"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Charles Rodwell",
+      "person_id": "PA795528"
     },
     {
       "chamber": "AN",
@@ -483,7 +597,13 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO845485",
+      "name": "Charles de Courson",
+      "person_id": "PA942"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO838901",
       "name": "Christelle D'Intorni",
       "person_id": "PA793322"
     },
@@ -513,7 +633,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO840056",
+      "group": "PO845401",
       "name": "Christine Engrand",
       "person_id": "PA794718"
     },
@@ -528,6 +648,12 @@
       "group": "PO845401",
       "name": "Christine Loir",
       "person_id": "PA793672"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Christine Pirès Beaune",
+      "person_id": "PA608172"
     },
     {
       "chamber": "AN",
@@ -582,6 +708,12 @@
       "group": "PO845419",
       "name": "Christophe Proença",
       "person_id": "PA841367"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Christopher Weissberg",
+      "person_id": "PA795326"
     },
     {
       "chamber": "AN",
@@ -723,13 +855,19 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845485",
+      "name": "David Habib",
+      "person_id": "PA1592"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845401",
       "name": "David Magnier",
       "person_id": "PA841587"
     },
     {
       "chamber": "AN",
-      "group": "PO845485",
+      "group": "PO840056",
       "name": "David Taupiac",
       "person_id": "PA793796"
     },
@@ -738,6 +876,18 @@
       "group": "PO845514",
       "name": "Davy Rimane",
       "person_id": "PA795876"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845439",
+      "name": "Delphine Batho",
+      "person_id": "PA335999"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845454",
+      "name": "Delphine Lingemann",
+      "person_id": "PA794702"
     },
     {
       "chamber": "AN",
@@ -756,6 +906,12 @@
       "group": "PO845407",
       "name": "Didier Le Gac",
       "person_id": "PA719404"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Didier Lemaire",
+      "person_id": "PA794838"
     },
     {
       "chamber": "AN",
@@ -795,6 +951,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845419",
+      "name": "Elie Califer",
+      "person_id": "PA795762"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845514",
       "name": "Elsa Faucillon",
       "person_id": "PA721896"
@@ -831,6 +993,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845419",
+      "name": "Emmanuel Grégoire",
+      "person_id": "PA840171"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845454",
       "name": "Emmanuel Mandon",
       "person_id": "PA794114"
@@ -855,6 +1023,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845425",
+      "name": "Eric Liégeon",
+      "person_id": "PA642725"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845413",
       "name": "Ersilia Soudais",
       "person_id": "PA795466"
@@ -873,6 +1047,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845485",
+      "name": "Estelle Youssouffa",
+      "person_id": "PA796078"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845439",
       "name": "Eva Sas",
       "person_id": "PA610002"
@@ -888,6 +1068,12 @@
       "group": "PO845419",
       "name": "Fabrice Barusseau",
       "person_id": "PA840829"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Fabrice Brun",
+      "person_id": "PA718838"
     },
     {
       "chamber": "AN",
@@ -957,9 +1143,27 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845454",
+      "name": "Frantz Gumbs",
+      "person_id": "PA795258"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "François Cormier-Bouligeon",
+      "person_id": "PA719118"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845470",
       "name": "François Gernigon",
       "person_id": "PA794234"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "François Hollande",
+      "person_id": "PA1654"
     },
     {
       "chamber": "AN",
@@ -1011,6 +1215,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845454",
+      "name": "Frédéric Petit",
+      "person_id": "PA721182"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845470",
       "name": "Frédéric Valletoux",
       "person_id": "PA795350"
@@ -1026,6 +1236,18 @@
       "group": "PO845401",
       "name": "Frédéric-Pierre Vos",
       "person_id": "PA841575"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Frédérique Meunier",
+      "person_id": "PA719272"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Félicie Gérard",
+      "person_id": "PA794470"
     },
     {
       "chamber": "AN",
@@ -1090,6 +1312,12 @@
     {
       "chamber": "AN",
       "group": "PO845407",
+      "name": "Guillaume Gouffier Valente",
+      "person_id": "PA721296"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
       "name": "Guillaume Kasbarian",
       "person_id": "PA719372"
     },
@@ -1119,7 +1347,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Gérault Verny",
       "person_id": "PA840809"
     },
@@ -1131,15 +1359,27 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Hanane Mansouri",
       "person_id": "PA841183"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Harold Huwart",
+      "person_id": "PA841017"
     },
     {
       "chamber": "AN",
       "group": "PO845439",
       "name": "Hendrik Davi",
       "person_id": "PA793452"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Henri Alfandari",
+      "person_id": "PA793992"
     },
     {
       "chamber": "AN",
@@ -1179,6 +1419,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845425",
+      "name": "Ian Boucard",
+      "person_id": "PA721816"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845413",
       "name": "Idir Boumertit",
       "person_id": "PA794938"
@@ -1188,6 +1434,282 @@
       "group": "PO845419",
       "name": "Inaki Echaniz",
       "person_id": "PA794854"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA1327"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845514",
+      "name": "Inconnu",
+      "person_id": "PA267306"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO847173",
+      "name": "Inconnu",
+      "person_id": "PA267561"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA605991"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA606098"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA607846"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Inconnu",
+      "person_id": "PA719282"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845454",
+      "name": "Inconnu",
+      "person_id": "PA719918"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Inconnu",
+      "person_id": "PA720480"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Inconnu",
+      "person_id": "PA720908"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA721134"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA721170"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA721442"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845454",
+      "name": "Inconnu",
+      "person_id": "PA721836"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA722046"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA722328"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Inconnu",
+      "person_id": "PA793210"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA793416"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA794042"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Inconnu",
+      "person_id": "PA794426"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Inconnu",
+      "person_id": "PA794518"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Inconnu",
+      "person_id": "PA794554"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA794750"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845454",
+      "name": "Inconnu",
+      "person_id": "PA795120"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA795330"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA795386"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA795888"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA795950"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA795958"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA795990"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA840713"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Inconnu",
+      "person_id": "PA841013"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845413",
+      "name": "Inconnu",
+      "person_id": "PA841167"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA841601"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA841693"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA841709"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA841745"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845401",
+      "name": "Inconnu",
+      "person_id": "PA841777"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA841801"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Inconnu",
+      "person_id": "PA841833"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA841869"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA842117"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA842137"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Inconnu",
+      "person_id": "PA842323"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Inconnu",
+      "person_id": "PA870010"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Isabelle Rauch",
+      "person_id": "PA720552"
     },
     {
       "chamber": "AN",
@@ -1209,13 +1731,25 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Jean Terlier",
+      "person_id": "PA721584"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845454",
+      "name": "Jean-Carles Grelier",
+      "person_id": "PA267318"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845439",
       "name": "Jean-Claude Raux",
       "person_id": "PA794154"
     },
     {
       "chamber": "AN",
-      "group": "PO845425",
+      "group": "PO838901",
       "name": "Jean-Didier Berger",
       "person_id": "PA408578"
     },
@@ -1224,6 +1758,12 @@
       "group": "PO845413",
       "name": "Jean-François Coulomme",
       "person_id": "PA795136"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845470",
+      "name": "Jean-François Portarrieu",
+      "person_id": "PA719528"
     },
     {
       "chamber": "AN",
@@ -1246,6 +1786,12 @@
     {
       "chamber": "AN",
       "group": "PO845425",
+      "name": "Jean-Louis Thiériot",
+      "person_id": "PA643089"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
       "name": "Jean-Luc Bourgeaux",
       "person_id": "PA342240"
     },
@@ -1254,6 +1800,12 @@
       "group": "PO845407",
       "name": "Jean-Luc Fugit",
       "person_id": "PA722366"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Jean-Luc Warsmann",
+      "person_id": "PA2952"
     },
     {
       "chamber": "AN",
@@ -1296,6 +1848,24 @@
       "group": "PO845401",
       "name": "Jean-Philippe Tanguy",
       "person_id": "PA795778"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Jean-Pierre Bataille",
+      "person_id": "PA267763"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Jean-Pierre Taite",
+      "person_id": "PA794178"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Jean-Pierre Vigier",
+      "person_id": "PA607090"
     },
     {
       "chamber": "AN",
@@ -1348,8 +1918,20 @@
     {
       "chamber": "AN",
       "group": "PO845401",
+      "name": "Jorys Bovet",
+      "person_id": "PA793182"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845401",
       "name": "Joseph Rivière",
       "person_id": "PA842227"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Josiane Corneloup",
+      "person_id": "PA722390"
     },
     {
       "chamber": "AN",
@@ -1386,6 +1968,12 @@
       "group": "PO845485",
       "name": "Joël Bruneau",
       "person_id": "PA840817"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845401",
+      "name": "Joëlle Mélin",
+      "person_id": "PA793354"
     },
     {
       "chamber": "AN",
@@ -1428,6 +2016,12 @@
       "group": "PO845401",
       "name": "Julien Gabarron",
       "person_id": "PA841139"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Julien Gokel",
+      "person_id": "PA841539"
     },
     {
       "chamber": "AN",
@@ -1479,9 +2073,21 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845419",
+      "name": "Jérôme Guedj",
+      "person_id": "PA1567"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845413",
       "name": "Jérôme Legavre",
       "person_id": "PA795298"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Jérôme Nury",
+      "person_id": "PA720644"
     },
     {
       "chamber": "AN",
@@ -1533,6 +2139,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845470",
+      "name": "Laetitia Saint-Paul",
+      "person_id": "PA720138"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845401",
       "name": "Laure Lavalette",
       "person_id": "PA795912"
@@ -1557,6 +2169,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845419",
+      "name": "Laurent Baumel",
+      "person_id": "PA606793"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845454",
       "name": "Laurent Croizier",
       "person_id": "PA793716"
@@ -1575,9 +2193,33 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845470",
+      "name": "Laurent Marcangeli",
+      "person_id": "PA605782"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Laurent Mazaury",
+      "person_id": "PA841931"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Laurent Wauquiez",
+      "person_id": "PA267285"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845407",
       "name": "Liliana Tanguy",
       "person_id": "PA719550"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Lionel Causse",
+      "person_id": "PA719922"
     },
     {
       "chamber": "AN",
@@ -1629,6 +2271,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845470",
+      "name": "Loïc Kervran",
+      "person_id": "PA719052"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845413",
       "name": "Loïc Prud'homme",
       "person_id": "PA719578"
@@ -1665,9 +2313,27 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Marc Chavent",
       "person_id": "PA840721"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Marc Ferracci",
+      "person_id": "PA795884"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845454",
+      "name": "Marc Fesneau",
+      "person_id": "PA719938"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Marc Pena",
+      "person_id": "PA840793"
     },
     {
       "chamber": "AN",
@@ -1707,6 +2373,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845419",
+      "name": "Marie Récalde",
+      "person_id": "PA341981"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845470",
       "name": "Marie-Agnès Poussier-Winsback",
       "person_id": "PA795270"
@@ -1743,6 +2415,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Marie-Pierre Rixain",
+      "person_id": "PA722252"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845419",
       "name": "Marietta Karamanli",
       "person_id": "PA335054"
@@ -1761,7 +2439,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO845419",
+      "group": "PO845485",
       "name": "Martine Froger",
       "person_id": "PA822617"
     },
@@ -1797,7 +2475,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Matthieu Bloch",
       "person_id": "PA840889"
     },
@@ -1833,7 +2511,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Maxime Michelet",
       "person_id": "PA841395"
     },
@@ -1848,6 +2526,12 @@
       "group": "PO845401",
       "name": "Michaël Taverne",
       "person_id": "PA794502"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Michel Barnier",
+      "person_id": "PA368"
     },
     {
       "chamber": "AN",
@@ -1869,6 +2553,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845425",
+      "name": "Michel Herbillon",
+      "person_id": "PA1630"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845407",
       "name": "Michel Lauzzana",
       "person_id": "PA720022"
@@ -1881,9 +2571,27 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845425",
+      "name": "Michèle Tabarot",
+      "person_id": "PA267794"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Mickaël Bouloux",
+      "person_id": "PA794094"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845454",
       "name": "Mickaël Cosson",
       "person_id": "PA793520"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Mikaele Seo",
+      "person_id": "PA757225"
     },
     {
       "chamber": "AN",
@@ -1971,6 +2679,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Nicolas Metzdorf",
+      "person_id": "PA795176"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845425",
       "name": "Nicolas Ray",
       "person_id": "PA793094"
@@ -2026,8 +2740,20 @@
     {
       "chamber": "AN",
       "group": "PO845407",
+      "name": "Olga Givernet",
+      "person_id": "PA718674"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
       "name": "Olivia Grégoire",
       "person_id": "PA721764"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Olivier Becht",
+      "person_id": "PA642935"
     },
     {
       "chamber": "AN",
@@ -2037,7 +2763,13 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO845419",
+      "name": "Olivier Faure",
+      "person_id": "PA609332"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO847173",
       "name": "Olivier Fayssat",
       "person_id": "PA840773"
     },
@@ -2082,6 +2814,12 @@
       "group": "PO845401",
       "name": "Patrice Martin",
       "person_id": "PA841825"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Patrick Hetzel",
+      "person_id": "PA608416"
     },
     {
       "chamber": "AN",
@@ -2157,7 +2895,13 @@
     },
     {
       "chamber": "AN",
-      "group": "PO845470",
+      "group": "PO845419",
+      "name": "Philippe Brun",
+      "person_id": "PA793624"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
       "name": "Philippe Fait",
       "person_id": "PA794658"
     },
@@ -2166,6 +2910,12 @@
       "group": "PO845425",
       "name": "Philippe Gosselin",
       "person_id": "PA266797"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Philippe Juvin",
+      "person_id": "PA346782"
     },
     {
       "chamber": "AN",
@@ -2271,6 +3021,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO840056",
+      "name": "Raphaël Schellenberger",
+      "person_id": "PA721314"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845401",
       "name": "René Lioret",
       "person_id": "PA840967"
@@ -2304,6 +3060,12 @@
       "group": "PO845401",
       "name": "Roger Chudeau",
       "person_id": "PA794198"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Roger Vicot",
+      "person_id": "PA794494"
     },
     {
       "chamber": "AN",
@@ -2343,6 +3105,24 @@
     },
     {
       "chamber": "AN",
+      "group": "PO840056",
+      "name": "Sacha Houlié",
+      "person_id": "PA722150"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845401",
+      "name": "Sandra Delannoy",
+      "person_id": "PA840119"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Sandra Marsaud",
+      "person_id": "PA719080"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845439",
       "name": "Sandra Regol",
       "person_id": "PA794778"
@@ -2364,6 +3144,12 @@
       "group": "PO845407",
       "name": "Sandrine Lalanne",
       "person_id": "PA795390"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Sandrine Le Feur",
+      "person_id": "PA719412"
     },
     {
       "chamber": "AN",
@@ -2433,7 +3219,7 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Sophie Ricourt Vaginay",
       "person_id": "PA840657"
     },
@@ -2463,6 +3249,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO840056",
+      "name": "Stella Dupont",
+      "person_id": "PA643175"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845407",
       "name": "Stéphane Buchou",
       "person_id": "PA722000"
@@ -2470,8 +3262,26 @@
     {
       "chamber": "AN",
       "group": "PO845419",
+      "name": "Stéphane Delautrette",
+      "person_id": "PA795430"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
       "name": "Stéphane Hablot",
       "person_id": "PA841471"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845485",
+      "name": "Stéphane Lenormand",
+      "person_id": "PA795244"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Stéphane Mazars",
+      "person_id": "PA677483"
     },
     {
       "chamber": "AN",
@@ -2505,13 +3315,13 @@
     },
     {
       "chamber": "AN",
-      "group": "PO840056",
+      "group": "PO845407",
       "name": "Stéphanie Rist",
       "person_id": "PA720066"
     },
     {
       "chamber": "AN",
-      "group": "PO845470",
+      "group": "PO838901",
       "name": "Sylvain Berrios",
       "person_id": "PA687214"
     },
@@ -2565,9 +3375,21 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Sébastien Huyghe",
+      "person_id": "PA267200"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845439",
       "name": "Sébastien Peytavie",
       "person_id": "PA793708"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845419",
+      "name": "Sébastien Saint-Pasteur",
+      "person_id": "PA841243"
     },
     {
       "chamber": "AN",
@@ -2607,6 +3429,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845419",
+      "name": "Thierry Sother",
+      "person_id": "PA841681"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845401",
       "name": "Thierry Tesson",
       "person_id": "PA841553"
@@ -2616,6 +3444,12 @@
       "group": "PO845407",
       "name": "Thomas Cazenave",
       "person_id": "PA793940"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Thomas Gassilloud",
+      "person_id": "PA722358"
     },
     {
       "chamber": "AN",
@@ -2673,6 +3507,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845485",
+      "name": "Valérie Létard",
+      "person_id": "PA227089"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845419",
       "name": "Valérie Rossi",
       "person_id": "PA840673"
@@ -2691,6 +3531,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Vincent Ledoux",
+      "person_id": "PA712014"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845425",
       "name": "Vincent Rolland",
       "person_id": "PA266808"
@@ -2703,9 +3549,15 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Vincent Trébuchet",
       "person_id": "PA840685"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845407",
+      "name": "Violette Spillebout",
+      "person_id": "PA794486"
     },
     {
       "chamber": "AN",
@@ -2733,6 +3585,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845470",
+      "name": "Xavier Albertini",
+      "person_id": "PA794278"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845425",
       "name": "Xavier Breton",
       "person_id": "PA330008"
@@ -2754,6 +3612,18 @@
       "group": "PO845485",
       "name": "Yannick Favennec-Bécot",
       "person_id": "PA267042"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845514",
+      "name": "Yannick Monnet",
+      "person_id": "PA793174"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Yannick Neuder",
+      "person_id": "PA794038"
     },
     {
       "chamber": "AN",
@@ -2793,6 +3663,12 @@
     },
     {
       "chamber": "AN",
+      "group": "PO845407",
+      "name": "Élisabeth Borne",
+      "person_id": "PA717161"
+    },
+    {
+      "chamber": "AN",
       "group": "PO845425",
       "name": "Élisabeth de Maistre",
       "person_id": "PA842141"
@@ -2817,7 +3693,13 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO845407",
+      "name": "Éric Bothorel",
+      "person_id": "PA642695"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO847173",
       "name": "Éric Ciotti",
       "person_id": "PA330240"
     },
@@ -2835,9 +3717,15 @@
     },
     {
       "chamber": "AN",
-      "group": "PO872880",
+      "group": "PO847173",
       "name": "Éric Michoux",
       "person_id": "PA841769"
+    },
+    {
+      "chamber": "AN",
+      "group": "PO845425",
+      "name": "Éric Pauget",
+      "person_id": "PA718784"
     },
     {
       "chamber": "AN",

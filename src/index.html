@@ -4,49 +4,94 @@
   <base href="./">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Votes – Scrutins</title>
+  <title>Parlement — Scrutins & Députés</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="header">
-    <h1>Scrutins</h1>
-    <div class="subtitle">Assemblée nationale — Votes et positions des députés</div>
-
-    <div class="filters">
-      <input id="q" placeholder="Rechercher un scrutin..." />
-      <select id="result">
-        <option value="">Tous résultats</option>
-        <option value="adopted">Adopté</option>
-        <option value="rejected">Rejeté</option>
-      </select>
-      <select id="theme">
-        <option value="">Tous thèmes</option>
-      </select>
+    <div class="header-top">
+      <div>
+        <h1>Parlement</h1>
+        <div class="subtitle">Assemblée nationale — Votes et positions des députés</div>
+      </div>
+      <nav class="nav-tabs">
+        <button class="nav-tab active" data-view="scrutins">Scrutins</button>
+        <button class="nav-tab" data-view="deputes">Députés</button>
+        <button class="nav-tab" data-view="groupes">Groupes</button>
+      </nav>
     </div>
-
-    <div id="meta" class="meta"></div>
   </header>
 
   <main class="main">
-    <div class="card">
-      <table class="table" id="scrutinsTable">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Titre</th>
-            <th>Résultat</th>
-            <th>Pour</th>
-            <th>Contre</th>
-            <th>ID</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+
+    <!-- ===== VUE : SCRUTINS (défaut) ===== -->
+    <div id="view-scrutins" class="view-panel">
+      <div class="filters filters-light">
+        <input id="q" placeholder="Rechercher un scrutin..." />
+        <select id="result">
+          <option value="">Tous résultats</option>
+          <option value="adopted">Adopté</option>
+          <option value="rejected">Rejeté</option>
+        </select>
+        <select id="theme">
+          <option value="">Tous thèmes</option>
+        </select>
+      </div>
+      <div id="meta" class="meta meta-light"></div>
+      <div class="card">
+        <table class="table" id="scrutinsTable">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Titre</th>
+              <th>Résultat</th>
+              <th>Pour</th>
+              <th>Contre</th>
+              <th>ID</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ===== VUE : DÉPUTÉS ===== -->
+    <div id="view-deputes" class="view-panel hidden">
+      <div class="filters filters-light">
+        <input id="dep-q" placeholder="Rechercher un député..." />
+        <select id="dep-group-filter">
+          <option value="">Tous les groupes</option>
+        </select>
+      </div>
+      <div id="dep-meta" class="meta meta-light"></div>
+      <div class="card">
+        <table class="table" id="deputesTable">
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Groupe</th>
+              <th>Votes</th>
+              <th>% Pour</th>
+              <th>% Contre</th>
+              <th>% Abst.</th>
+              <th>Participation</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ===== VUE : GROUPES ===== -->
+    <div id="view-groupes" class="view-panel hidden">
+      <div id="groupesList" class="groups-grid"></div>
     </div>
 
   </main>
 
+  <!-- ===== OVERLAY : Détail scrutin ===== -->
   <div id="overlay" class="overlay hidden">
     <section class="overlay-content">
       <div class="detail-head">
@@ -56,7 +101,6 @@
         </div>
         <button id="close" class="btn btn-close">Fermer</button>
       </div>
-
       <div class="detail-body">
         <div class="filters">
           <input id="vq" placeholder="Filtrer par nom ou ID..." />
@@ -69,7 +113,6 @@
           </select>
           <input id="vgroup" placeholder="Filtrer groupe (ex: RN)..." />
         </div>
-
         <table class="table" id="votesTable">
           <thead>
             <tr>
@@ -82,9 +125,84 @@
           </thead>
           <tbody></tbody>
         </table>
-
         <div class="detail-footer">
           <div id="votesMeta" class="meta"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== OVERLAY : Fiche député ===== -->
+  <div id="deputy-overlay" class="overlay hidden">
+    <section class="overlay-content overlay-wide">
+      <div class="detail-head">
+        <div>
+          <h2 id="deputy-name"></h2>
+          <div id="deputy-group-info" class="meta"></div>
+        </div>
+        <button id="deputy-close" class="btn btn-close">Fermer</button>
+      </div>
+      <div class="detail-body">
+        <div id="deputy-stats" class="stats-grid"></div>
+        <h3 class="section-title">Historique des votes</h3>
+        <div class="filters">
+          <input id="deputy-vq" placeholder="Filtrer par scrutin..." />
+          <select id="deputy-vpos">
+            <option value="">Toutes positions</option>
+            <option value="FOR">Pour</option>
+            <option value="AGAINST">Contre</option>
+            <option value="ABSTAIN">Abstention</option>
+            <option value="NONVOTING">Non-votant</option>
+          </select>
+        </div>
+        <table class="table" id="deputyVotesTable">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Scrutin</th>
+              <th>Position</th>
+              <th>Résultat</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="detail-footer">
+          <div id="deputy-votes-meta" class="meta"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== OVERLAY : Fiche groupe ===== -->
+  <div id="group-overlay" class="overlay hidden">
+    <section class="overlay-content overlay-wide">
+      <div class="detail-head">
+        <div>
+          <h2 id="group-name"></h2>
+          <div id="group-sub" class="meta"></div>
+        </div>
+        <button id="group-close" class="btn btn-close">Fermer</button>
+      </div>
+      <div class="detail-body">
+        <div id="group-stats" class="stats-grid"></div>
+        <h3 class="section-title">Membres</h3>
+        <div id="group-members" class="members-grid"></div>
+        <h3 class="section-title">Votes du groupe</h3>
+        <table class="table" id="groupVotesTable">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Scrutin</th>
+              <th>Pour</th>
+              <th>Contre</th>
+              <th>Abst.</th>
+              <th>Position majoritaire</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="detail-footer">
+          <div id="group-votes-meta" class="meta"></div>
         </div>
       </div>
     </section>
